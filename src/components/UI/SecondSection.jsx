@@ -1,10 +1,8 @@
-import React from "react";
-
 const SecondSection = () => {
   return (
     <div
       style={{ backgroundColor: "#fd7f3e" }}
-      className="flex items-center py-20"
+      className="flex items-center py-20 px-12"
     >
       <div className="w-1/2 m-5">
         <h2
@@ -30,6 +28,11 @@ const SecondSection = () => {
           Boast is here to revolutionize the way you engage with brands and earn
           rewards for your influence.
         </h2>
+        <img
+          className="mt-4"
+          src="https://www.zywa.co/wp-content/uploads/2023/03/Group-48098234.png"
+          alt=""
+        />
       </div>
     </div>
   );

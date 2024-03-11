@@ -1,22 +1,29 @@
-const HeroSection = ({ onOpen }) => {
+const HeroSection = () => {
+  const handleScrollToWishlist = () => {
+    const wishlistSection = document.getElementById("wishlistForm");
+    wishlistSection.scrollIntoView({ behavior: "smooth" });
+  };
   return (
-    <div className="flex justify-around m-5 items-center pt-5">
+    <div className="flex justify-around mx-5 items-center pt-5">
       <div>
         <h2
           className="text-5xl font-extrabold"
           style={{ letterSpacing: "-4px" }}
         >
           Upto 100% cashback <br />
-          <span style={{ color: "#DE3996" }}> on your Shoutout</span>
+          <span className="text-[#DE3996]"> on your Shoutout</span>
         </h2>
-        <p className="my-4 text-xl">Encash your influence</p>
+        <p className="my-7 text-xl">Encash your influence</p>
         <button
-          className="bg-black text-white font-bold px-6 py-4 rounded-full"
-          onClick={onOpen}
+          onClick={handleScrollToWishlist}
+          className="bg-black hover:bg-[#DE3996] text-white font-bold px-6 py-4 rounded-full hover:text-black duration-300 "
         >
           Join Our wishlist
         </button>
       </div>
+
+      {/*  */}
+
       <div>
         <img
           style={{ width: "548px", height: "582px" }}

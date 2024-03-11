@@ -5,7 +5,7 @@ const HowDoesItWork = () => {
     <div>
       <div
         style={{ backgroundColor: "#a1df70" }}
-        className="flex items-center py-20"
+        className="flex items-center py-20 px-12"
       >
         <div className="w-1/2 m-5">
           <h2

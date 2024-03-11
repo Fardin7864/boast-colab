@@ -1,17 +1,24 @@
-import React from "react";
-
 const Navbar = () => {
+  const handleScrollToWishlist = () => {
+    const wishlistSection = document.getElementById("wishlistForm");
+    wishlistSection.scrollIntoView({ behavior: "smooth" });
+  };
   return (
-    <div className="flex justify-between m-5">
-      <h1
-        className="text-black text-4xl font-extrabold"
-        style={{ letterSpacing: "-5px" }}
-      >
-        BOAST
-      </h1>
-      <button className="bg-black text-white font-bold px-6 py-4 rounded-full">
-        Join our wishlist
-      </button>
+    <div className=" my-5  border-b-1">
+      <div className="flex justify-between mx-14">
+        <h1
+          className="text-black text-4xl font-extrabold"
+          style={{ letterSpacing: "-6px" }}
+        >
+          BOAST
+        </h1>
+        <button
+          onClick={handleScrollToWishlist}
+          className="bg-black hover:bg-[#DE3996] text-white font-bold px-6 py-4 rounded-full hover:text-black mb-4 duration-300 "
+        >
+          Join our wishlist
+        </button>
+      </div>
     </div>
   );
 };

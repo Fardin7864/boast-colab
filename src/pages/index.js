@@ -1,31 +1,14 @@
 import RootLayout from "@/components/Layout/RootLayout";
-import FeaturedSection from "@/components/UI/FeaturedSection";
 import HeroSection from "@/components/UI/HeroSection";
 import HowDoesItWork from "@/components/UI/HowDoesItWork";
 import SecondSection from "@/components/UI/SecondSection";
 import ThirdSection from "@/components/UI/ThirdSection";
 import Head from "next/head";
-import {
-  Modal,
-  ModalContent,
-  ModalHeader,
-  ModalBody,
-  ModalFooter,
-  Button,
-  useDisclosure,
-  Input,
-} from "@nextui-org/react";
+import WishlistForm from "@/components/UI/WishlistForm";
+import EligibilitySection from "@/components/UI/EligibilitySection";
+import BrandSection from "@/components/UI/BrandSection";
 
 export default function HomePage() {
-  const { isOpen, onOpen, onOpenChange } = useDisclosure();
-
-  // const [isModalOpen, setIsModalOpen] = useState(false);
-  // const [email, setEmail] = useState("");
-
-  // const handleOpenModal = (email) => {
-  //   setEmail(email);
-  //   setIsModalOpen(true);
-  // };
   return (
     <>
       <Head>
@@ -35,39 +18,48 @@ export default function HomePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <HeroSection onOpen={onOpen} />
-      <FeaturedSection />
+      <HeroSection />
+
       <SecondSection />
+      <BrandSection />
       <ThirdSection />
       <HowDoesItWork />
+      <EligibilitySection />
+      <WishlistForm />
 
       {/*  */}
-      <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
+
+      {/* <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1">
-                Join Our Wishlist
-              </ModalHeader>
               <ModalBody>
-                <Input type="email" variant="bordered" label="Email" />
+                <form action="">
+                  <Input
+                    type="email"
+                    label="Email"
+                    placeholder="Enter your email"
+                    value="afsana"
+                  />
+                </form>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam pulvinar risus non risus hendrerit venenatis.
+                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
+                </p>
               </ModalBody>
               <ModalFooter>
                 <Button color="danger" variant="light" onPress={onClose}>
                   Close
                 </Button>
-                <Button
-                  color="primary"
-                  onPress={onClose}
-                  className="bg-black text-white font-bold px-6 py-4 rounded-full"
-                >
-                  Join Now
+                <Button color="primary" onPress={onClose}>
+                  Action
                 </Button>
               </ModalFooter>
             </>
           )}
         </ModalContent>
-      </Modal>
+      </Modal> */}
     </>
   );
 }
