@@ -7,10 +7,32 @@ import Head from "next/head";
 import WishlistForm from "@/components/UI/WishlistForm";
 import EligibilitySection from "@/components/UI/EligibilitySection";
 import BrandSection from "@/components/UI/BrandSection";
+import AnimatedCursor from "react-animated-cursor";
 
 export default function HomePage() {
   return (
     <>
+      <AnimatedCursor
+            innerSize={16}
+            outerSize={16}
+            color='193, 11, 111'
+            outerAlpha={0.2}
+            innerScale={0.7}
+            outerScale={5}
+            clickables={[
+              'a',
+              'input[type="text"]',
+              'input[type="email"]',
+              'input[type="number"]',
+              'input[type="submit"]',
+              'input[type="image"]',
+              'label[for]',
+              'select',
+              'textarea',
+              'button',
+              '.link'
+            ]}
+             />
       <Head>
         <title>BOAST</title>
         <meta name="description" content="BOAST made by next-js" />
