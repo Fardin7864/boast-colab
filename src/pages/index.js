@@ -7,16 +7,21 @@ import Head from "next/head";
 import WishlistForm from "@/components/UI/WishlistForm";
 import EligibilitySection from "@/components/UI/EligibilitySection";
 import BrandSection from "@/components/UI/BrandSection";
+import CustomScrollbar from "@/components/UI/CustomeScrollbar";
 
 export default function HomePage() {
   return (
-    <>
+    <div>
       <Head>
         <title>BOAST</title>
         <meta name="description" content="BOAST made by next-js" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      {/* <CustomScrollbar>
+        <p>hello</p>
+      </CustomScrollbar> */}
 
       <HeroSection />
 
@@ -60,7 +65,7 @@ export default function HomePage() {
           )}
         </ModalContent>
       </Modal> */}
-    </>
+    </div>
   );
 }
 

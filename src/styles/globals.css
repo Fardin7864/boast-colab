@@ -6,3 +6,18 @@
 body {
   font-family: "Gilroy ", sans-serif;
 }
+
+/*  */
+
+.brandPlaceholder::placeholder {
+  color: #ffb28b;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #757575;
+  border-radius: 5px;
+}
