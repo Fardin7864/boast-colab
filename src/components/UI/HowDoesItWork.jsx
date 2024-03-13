@@ -41,7 +41,7 @@ const HowDoesItWork = () => {
           data-aos-easing="linear"
         >
           <h2
-            className="text-black text-xl flex gap-2 my-3"
+            className="text-black text-2xl flex gap-2 my-3"
             style={{ letterSpacing: "-2px" }}
           >
             <span className="text-sm mt-2">
@@ -50,7 +50,7 @@ const HowDoesItWork = () => {
             You become our member.
           </h2>
           <h2
-            className="text-black text-xl flex gap-2 my-3"
+            className="text-black text-2xl flex gap-2 my-3"
             style={{ letterSpacing: "-2px" }}
           >
             <span className="text-sm mt-2">
@@ -59,7 +59,7 @@ const HowDoesItWork = () => {
             Shop from any of our Partner Brands and post it on social media.
           </h2>
           <h2
-            className="text-black text-xl flex gap-2 my-3"
+            className="text-black text-2xl flex gap-2 my-3"
             style={{ letterSpacing: "-2px" }}
           >
             <span className="text-sm mt-2">
