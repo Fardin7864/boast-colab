@@ -85,29 +85,30 @@ const BrandSection = () => {
   };
   return (
     <div className="">
-      <Slider
-        {...settings}
-        className="bg-black flex items-center justify-center"
-      >
-        <img className="mx-10" src="/images/logo1.png" alt="image1" />
+      <div className="bg-black">
+        <div className="max-w-7xl mx-auto">
+          <Slider {...settings} className=" flex items-center justify-center">
+            <img className="mx-10" src="/images/logo1.png" alt="image1" />
 
-        <img className="mx-10 mt-20" src="/images/logo2.png" alt="image2" />
+            <img className="mx-10 mt-20" src="/images/logo2.png" alt="image2" />
 
-        <img className="mx-10" src="/images/logo3.png" alt="image3" />
+            <img className="mx-10" src="/images/logo3.png" alt="image3" />
 
-        <img className="mx-10" src="/images/logo4.png" alt="image4" />
+            <img className="mx-10" src="/images/logo4.png" alt="image4" />
 
-        <img className="mx-10 mt-20" src="/images/logo5.png" alt="image5" />
+            <img className="mx-10 mt-20" src="/images/logo5.png" alt="image5" />
 
-        <img className="mx-10" src="/images/logo6.png" alt="image6" />
+            <img className="mx-10" src="/images/logo6.png" alt="image6" />
 
-        {/* <div className="px-10 flex justify-center items-center">
+            {/* <div className="px-10 flex justify-center items-center">
           <h2 className="bg-black px-10 text-white">Brand still loading</h2>
         </div>
         <div className="px-10 ">
           <h2 className="bg-black px-10 text-white">Brand still loading</h2>
         </div> */}
-      </Slider>
+          </Slider>
+        </div>
+      </div>
 
       <h2
         className="text-center my-4 text-3xl font-bold text-[#fd7f3e]"
@@ -139,7 +140,7 @@ const BrandSection = () => {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="bg-[#ffc200]">
+              <ModalHeader className="bg-[#fd7f3e] text-white">
                 Name your favorite local brand
               </ModalHeader>
               <ModalBody className=" ">

@@ -31,7 +31,7 @@ const EligibilitySection = () => {
           onClick={handleScrollToWishlist}
           className="bg-black hover:bg-[#DE3996] text-white font-bold px-6 py-4 rounded-full hover:text-black duration-300 "
         >
-          Join Our waitlist
+          Join Our wait list
         </button>
       </div>
 

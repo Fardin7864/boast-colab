@@ -13,23 +13,24 @@ const HeroSection = () => {
           style={{ letterSpacing: "-4px" }}
         >
           Upto 100% cashback <br />
-          <span className="text-[#DE3996]"> on your 
-          
-          <TypeAnimation
-      sequence={[
-        // Same substring at the start will only be typed out once, initially
-        ' Shoutout',
-        1000, // wait 1s before replacing "Mice" with "Hamsters"
-        ' Post',
-        1000,
-        ' Story',
-        1000
-      ]}
-      wrapper="span"
-      speed={30}
-      // style={{ fontSize: '1rem', display: 'inline-block' }}
-      repeat={Infinity}
-    />
+          <span className="text-[#DE3996]">
+            {" "}
+            on your
+            <TypeAnimation
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                " Shoutout",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                " Post",
+                1000,
+                " Story",
+                1000,
+              ]}
+              wrapper="span"
+              speed={30}
+              // style={{ fontSize: '1rem', display: 'inline-block' }}
+              repeat={Infinity}
+            />
           </span>
         </h2>
         <p className="my-7 text-2xl font-semibold">Encash your influence</p>
@@ -37,7 +38,7 @@ const HeroSection = () => {
           onClick={handleScrollToWishlist}
           className="bg-black hover:bg-[#DE3996] text-white font-bold px-6 py-4 rounded-full hover:text-black duration-300 "
         >
-          Join Our wishlist
+          Join Our wait list
         </button>
       </div>
 

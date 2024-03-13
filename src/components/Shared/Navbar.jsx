@@ -16,7 +16,7 @@ const Navbar = () => {
           onClick={handleScrollToWishlist}
           className="bg-black hover:bg-[#DE3996] text-white font-bold px-6 py-4 rounded-full hover:text-black mb-4 duration-300 "
         >
-          Join our wishlist
+          Join Our wait list
         </button>
       </div>
     </div>
