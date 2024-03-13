@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 /* eslint-disable @next/next/no-img-element */
 const Navbar = () => {
   const handleScrollToWishlist = () => {
@@ -5,18 +7,25 @@ const Navbar = () => {
     wishlistSection.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div className=" my-5  border-b-1">
-      <div className="flex justify-between mx-14">
+    <div className=" pt-3 drop-shadow-lg bg-slate-100">
+      <div className="flex justify-between items-center mx-14">
         {/* <h1
           className="text-black text-4xl font-extrabold"
           style={{ letterSpacing: "-6px" }}
         >
           BOAST
         </h1> */}
-        <img
+        {/* <img
           style={{ height: "60px", width: "170px" }}
           src="/images/logo.png"
           alt=""
+        /> */}
+        <Image
+        src={'/logo.png'}
+        width={120}
+        height={0}
+        alt="logo"
+        className=""
         />
         <button
           onClick={handleScrollToWishlist}

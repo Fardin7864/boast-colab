@@ -33,8 +33,8 @@ const BrandSection = () => {
     handleJoinNow();
   };
   return (
-    <div className="">
-      <div className="bg-black">
+    <div className="bg-black">
+      <div className="">
         <div className="max-w-7xl mx-auto">
           <Marquee>
             <img
@@ -83,7 +83,7 @@ const BrandSection = () => {
       </div>
 
       <h2
-        className="text-center my-4 text-3xl font-bold text-[#fd7f3e]"
+        className="text-center py-4 text-3xl font-bold text-[#fd7f3e]"
         style={{ letterSpacing: "-1px", fontFamily: "Gilroy" }}
       >
         Which brands you want to see partner with us next?
@@ -95,7 +95,7 @@ const BrandSection = () => {
             type="text"
             required
             placeholder="Name your favorite local brand"
-            className={`rounded-l-lg text-black  bg-inherit border border-[#fd7f3e] px-3 focus:outline-[#ffb28b] brandPlaceholder w-64`}
+            className={`rounded-l-lg text-white  bg-inherit border border-[#fd7f3e] px-3 focus:outline-[#ffb28b] brandPlaceholder w-64`}
             onChange={handleBrandChange}
             value={brand}
           />
