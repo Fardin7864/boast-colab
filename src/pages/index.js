@@ -8,6 +8,7 @@ import WishlistForm from "@/components/UI/WishlistForm";
 import EligibilitySection from "@/components/UI/EligibilitySection";
 import BrandSection from "@/components/UI/BrandSection";
 import AnimatedCursor from "react-animated-cursor";
+import LargestCommunity from "@/components/UI/LargestCommunity";
 
 export default function HomePage() {
   return (
@@ -50,6 +51,7 @@ export default function HomePage() {
       <BrandSection />
       <ThirdSection />
       <HowDoesItWork />
+      <LargestCommunity />
       <EligibilitySection />
       <WishlistForm />
 

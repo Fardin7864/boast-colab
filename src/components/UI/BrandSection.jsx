@@ -35,55 +35,65 @@ const BrandSection = () => {
   return (
     <div className="">
       <div className="bg-black">
-        <div className="max-w-7xl mx-auto">
+        <div className=" mx-auto">
           <Marquee>
             <img
-              className="mx-10"
-              style={{ height: "120px", width: "170px" }}
+              className=""
+              style={{ height: "80px", width: "130px" }}
               src="/images/logo1.png"
               alt="image1"
             />
 
             <img
-              style={{ height: "70px", width: "200px" }}
+              style={{ height: "50px", width: "170px" }}
               className="mx-10 "
               src="/images/logo2.png"
               alt="image2"
             />
 
             <img
-              style={{ height: "120px", width: "100px" }}
+              style={{ height: "80px", width: "70px" }}
               className="mx-10"
               src="/images/logo3.png"
               alt="image3"
             />
 
             <img
-              style={{ height: "100px", width: "130px" }}
+              style={{ height: "80px", width: "100px" }}
               className="mx-10"
               src="/images/logo4.png"
               alt="image4"
             />
 
             <img
-              style={{ height: "60px", width: "180px" }}
+              style={{ height: "50px", width: "160px" }}
               className="mx-10"
               src="/images/logo5.png"
               alt="image5"
             />
 
             <img
-              style={{ height: "120px", width: "140px" }}
-              className="mx-10"
+              className="ml-20"
+              style={{ height: "80px", width: "100px" }}
               src="/images/logo6.png"
               alt="image6"
+            />
+            <img
+              className="ml-20"
+              style={{ height: "80px", width: "70px" }}
+              src="/images/logo3.png"
+              alt="image3"
             />
           </Marquee>
         </div>
       </div>
 
+      <p className="text-center mt-7 text-md text-black">
+        Don&#x2019;t see your favorite brands?
+      </p>
+
       <h2
-        className="text-center my-4 text-3xl font-bold text-[#fd7f3e]"
+        className="text-center  text-3xl font-extrabold text-black"
         style={{ letterSpacing: "-1px", fontFamily: "Gilroy" }}
       >
         Which brands you want to see partner with us next?
@@ -95,7 +105,7 @@ const BrandSection = () => {
             type="text"
             required
             placeholder="Name your favorite local brand"
-            className={`rounded-l-lg text-black  bg-inherit border border-[#fd7f3e] px-3 focus:outline-[#ffb28b] brandPlaceholder w-64`}
+            className={`rounded-l-lg text-black  border border-[#fd7f3e] px-3 focus:outline-none brandPlaceholder w-64`}
             onChange={handleBrandChange}
             value={brand}
           />

@@ -19,6 +19,7 @@ const ThirdSection = () => {
       >
         <div data-aos="fade-down">
           <img
+            style={{ height: "450px", width: "800px" }}
             src="https://www.zywa.co/wp-content/uploads/2023/02/perso-1-2.png"
             alt=""
           />
