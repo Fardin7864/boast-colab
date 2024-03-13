@@ -9,8 +9,8 @@ const HowDoesItWork = () => {
       >
         <div className="w-1/2 m-5">
           <h2
-            className="text-black text-5xl font-extrabold "
-            style={{ letterSpacing: "-4px" }}
+            className="text-black text-6xl font-extrabold "
+            style={{ letterSpacing: "-5px" }}
           >
             How Does it work?
           </h2>
@@ -24,13 +24,20 @@ const HowDoesItWork = () => {
         </div>
         <div className="w-1/2 m-5">
           <h2
-            className="text-black text-2xl font-bold mt-60 "
+            className="text-black text-2xl font-bold mt-60 flex flex-col gap-2"
             style={{ letterSpacing: "-2px" }}
           >
-            Its simple! Once you join Boasts free membership, you can shop at
+            {/* Its simple! Once you join Boasts free membership, you can shop at
             any of our partner brands Then, share about your purchase on your
             social media channels, tagging the brand and get a cashback ranging
-            from 10-100% depending open your social influencing power
+            from 10-100% depending open your social influencing power */}
+            1. You become our member <br />
+            <span>
+              2. Shop from any of our Partner Brands and post it on social
+              media.
+              <br />
+            </span>
+            <span>3. Get Cashback depending on you Boasting power.</span>
           </h2>
         </div>
       </div>

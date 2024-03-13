@@ -64,11 +64,14 @@ const WishlistForm = () => {
         />
 
         <div>
+          <h1 className=" text-white font-bold text-2xl mb-4">
+            want to be an early adaptor?
+          </h1>
           <h2
             className="text-5xl mb-4 font-extrabold"
             style={{ letterSpacing: "-4px" }}
           >
-            join our Wishlist!
+            join our Waitlist!
           </h2>
           <div className="my-10">
             <form className="flex mt-5" onSubmit={handleSubmit}>

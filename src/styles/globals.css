@@ -1,13 +1,19 @@
-@import url("./fonts.css");
+/* @import url("./fonts.css"); */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Gilroy ", sans-serif;
+/*  */
+
+@font-face {
+  font-family: gilroy;
+  src: url(/fonts/gilroy-semibold.ttf);
 }
 
-/*  */
+* {
+  font-family: gilroy;
+}
 
 .brandPlaceholder::placeholder {
   color: #ffb28b;

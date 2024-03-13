@@ -109,6 +109,13 @@ const BrandSection = () => {
         </div> */}
       </Slider>
 
+      <h2
+        className="text-center my-4 text-3xl font-bold text-[#fd7f3e]"
+        style={{ letterSpacing: "-1px", fontFamily: "Gilroy" }}
+      >
+        Which brands you want to see partner with us next?
+      </h2>
+
       <div className="my-5 flex justify-center">
         <form className="flex" onSubmit={handleSubmit}>
           <input

@@ -13,8 +13,8 @@ const SecondSection = () => {
     <div className="flex items-center py-20 px-20 bg-[#fd7f3e]">
       <div className="w-1/2 m-5">
         <h2
-          className="text-white text-5xl font-extrabold"
-          style={{ letterSpacing: "-4px" }}
+          className="text-white text-6xl font-extrabold"
+          style={{ letterSpacing: "-2px" }}
           data-aos="fade-right"
           data-aos-easing="ease-in-sine"
         >
@@ -33,7 +33,7 @@ const SecondSection = () => {
       <div className="w-1/2 m-5">
         <h2
           className="text-white text-2xl font-bold mt-60"
-          style={{ letterSpacing: "-2px" }}
+          style={{ letterSpacing: "-1px" }}
         >
           Are you an influencer looking to monetize your social media presence?
           Boast is here to revolutionize the way you engage with brands and earn
