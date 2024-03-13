@@ -10,7 +10,7 @@ const SecondSection = () => {
     });
   }, []);
   return (
-    <div className="flex items-center py-20 px-20 bg-[#fd7f3e]">
+    <div className="flex items-center p-20 bg-[#fd7f3e]">
       <div className="w-1/2 m-5">
         <h2
           className="text-white text-6xl font-extrabold"

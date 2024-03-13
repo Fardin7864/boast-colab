@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Button, Input, ModalHeader } from "@nextui-org/react";
 import style from "../../styles/WishlistForm.module.css";
 import {
@@ -31,32 +32,10 @@ const WishlistForm = () => {
 
   return (
     <>
-      <div className={style.newsLetterContainer} id="wishlistForm">
-        {/* <div className="bg-[#fd7f3e] p-12 w-2/3">
-          <h1 className="text-center text-white font-bold text-2xl">
-            Are you an influencer? Join our Wishlist!
-          </h1>
-          <form className="flex justify-center mt-5">
-            <input
-              type="email"
-              required
-              placeholder="Enter Your Email here"
-              className={`text-white rounded-none bg-inherit border px-3 focus:outline-white ${style.placeholderWhite}`}
-              onChange={handleEmailChange}
-              value={email}
-            />
-            <Button
-              type="submit"
-              onClick={handleJoinNow}
-              className="rounded-none text-[#fd614a]"
-            >
-              Join Now
-            </Button>
-          </form>
-        </div> */}
-      </div>
-
-      <div className="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-around items-center py-20 bg-[#ffc200]">
+      <div
+        id="wishlistForm"
+        className="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-around items-center py-20 bg-[#ffc200]"
+      >
         <img
           style={{ width: "663px", height: "549px" }}
           src="https://www.zywa.co/wp-content/uploads/2023/03/Screenshot-2023-03-08-at-12.50.37-AM-1024x848.png"
@@ -64,7 +43,7 @@ const WishlistForm = () => {
         />
 
         <div>
-          <h1 className=" text-white text-2xl mb-4">
+          <h1 className=" text-white text-xl mb-4">
             want to be an early adaptor?
           </h1>
           <h2
