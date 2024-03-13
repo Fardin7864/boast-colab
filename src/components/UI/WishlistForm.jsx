@@ -64,7 +64,7 @@ const WishlistForm = () => {
         />
 
         <div>
-          <h1 className=" text-white font-bold text-2xl mb-4">
+          <h1 className=" text-white text-2xl mb-4">
             want to be an early adaptor?
           </h1>
           <h2
@@ -79,7 +79,7 @@ const WishlistForm = () => {
                 type="email"
                 required
                 placeholder="Enter Your Email here"
-                className={`text-black rounded-l-lg bg-inherit border border-black px-3 focus:outline-none ${style.placeholderWhite}`}
+                className={`text-black rounded-l-lg bg-white border-none border-black px-3 focus:outline-none ${style.placeholderWhite}`}
                 onChange={handleEmailChange}
                 value={email}
               />

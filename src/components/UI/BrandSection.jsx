@@ -11,60 +11,9 @@ import {
   useDisclosure,
 } from "@nextui-org/react";
 import { useState } from "react";
+import Marquee from "react-fast-marquee";
 
 const BrandSection = () => {
-  const settings = {
-    // dots: true,
-    infinite: true,
-    slidesToShow: 6,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 500,
-    pauseOnHover: true,
-    cssEase: "linear",
-    // nextArrow: (
-    //   <SampleNextArrow style={{}} onClick={undefined} className={undefined} />
-    // ),
-    // prevArrow: (
-    //   <SamplePrevArrow className={undefined} style={{}} onClick={undefined} />
-    // ),
-    // responsive: [
-    //   {
-    //     breakpoint: 480,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 768,
-    //     settings: {
-    //       slidesToShow: 2,
-    //       slidesToScroll: 1,
-    //       initialSlide: 1,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 1920,
-    //     settings: {
-    //       slidesToShow: 5,
-    //       slidesToScroll: 1,
-    //       infinite: true,
-    //     },
-    //   },
-
-    //   {
-    //     breakpoint: 1921,
-    //     settings: {
-    //       slidesToShow: 5,
-    //       slidesToScroll: 1,
-    //       infinite: true,
-    //     },
-    //   },
-    // ],
-  };
-
   const { isOpen, onOpen, onOpenChange, onClose } = useDisclosure();
   const [brand, setBrand] = useState("");
   const handleBrandChange = (e) => {
@@ -87,26 +36,49 @@ const BrandSection = () => {
     <div className="">
       <div className="bg-black">
         <div className="max-w-7xl mx-auto">
-          <Slider {...settings} className=" flex items-center justify-center">
-            <img className="mx-10" src="/images/logo1.png" alt="image1" />
+          <Marquee>
+            <img
+              className="mx-10"
+              style={{ height: "120px", width: "170px" }}
+              src="/images/logo1.png"
+              alt="image1"
+            />
 
-            <img className="mx-10 mt-20" src="/images/logo2.png" alt="image2" />
+            <img
+              style={{ height: "70px", width: "200px" }}
+              className="mx-10 "
+              src="/images/logo2.png"
+              alt="image2"
+            />
 
-            <img className="mx-10" src="/images/logo3.png" alt="image3" />
+            <img
+              style={{ height: "120px", width: "100px" }}
+              className="mx-10"
+              src="/images/logo3.png"
+              alt="image3"
+            />
 
-            <img className="mx-10" src="/images/logo4.png" alt="image4" />
+            <img
+              style={{ height: "100px", width: "130px" }}
+              className="mx-10"
+              src="/images/logo4.png"
+              alt="image4"
+            />
 
-            <img className="mx-10 mt-20" src="/images/logo5.png" alt="image5" />
+            <img
+              style={{ height: "60px", width: "180px" }}
+              className="mx-10"
+              src="/images/logo5.png"
+              alt="image5"
+            />
 
-            <img className="mx-10" src="/images/logo6.png" alt="image6" />
-
-            {/* <div className="px-10 flex justify-center items-center">
-          <h2 className="bg-black px-10 text-white">Brand still loading</h2>
-        </div>
-        <div className="px-10 ">
-          <h2 className="bg-black px-10 text-white">Brand still loading</h2>
-        </div> */}
-          </Slider>
+            <img
+              style={{ height: "120px", width: "140px" }}
+              className="mx-10"
+              src="/images/logo6.png"
+              alt="image6"
+            />
+          </Marquee>
         </div>
       </div>
 
