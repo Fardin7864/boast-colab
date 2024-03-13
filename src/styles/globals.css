@@ -7,6 +7,7 @@ body {
   font-family: "Gilroy ", sans-serif;
 }
 
+
 .logo{
   background: linear-gradient(to right, #ff4e50, #f9d423);
   -webkit-background-clip: text;
@@ -28,3 +29,19 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/*  */
+
+.brandPlaceholder::placeholder {
+  color: #ffb28b;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #757575;
+  border-radius: 5px;
+}
+

@@ -64,10 +64,6 @@ const WishlistForm = () => {
         />
 
         <div>
-          <h5 className="font-extrabold text-xl mb-4">
-            {" "}
-            are you an Influencer?
-          </h5>
           <h2
             className="text-5xl mb-4 font-extrabold"
             style={{ letterSpacing: "-4px" }}
@@ -80,14 +76,14 @@ const WishlistForm = () => {
                 type="email"
                 required
                 placeholder="Enter Your Email here"
-                className={`text-black rounded-none bg-inherit border border-black px-3 focus:outline-black ${style.placeholderWhite}`}
+                className={`text-black rounded-l-lg bg-inherit border border-black px-3 focus:outline-none ${style.placeholderWhite}`}
                 onChange={handleEmailChange}
                 value={email}
               />
               <Button
                 type="submit"
                 onClick={handleJoinNow}
-                className="rounded-none text-white bg-black"
+                className="rounded-none text-white bg-black rounded-r-lg"
               >
                 Join Now
               </Button>

@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Button, Input, ModalHeader } from "@nextui-org/react";
-import style from "../../styles/WishlistForm.module.css";
 import {
   Modal,
   ModalContent,
@@ -24,12 +23,12 @@ const BrandSection = () => {
     autoplaySpeed: 500,
     pauseOnHover: true,
     cssEase: "linear",
-    nextArrow: (
-      <SampleNextArrow style={{}} onClick={undefined} className={undefined} />
-    ),
-    prevArrow: (
-      <SamplePrevArrow className={undefined} style={{}} onClick={undefined} />
-    ),
+    // nextArrow: (
+    //   <SampleNextArrow style={{}} onClick={undefined} className={undefined} />
+    // ),
+    // prevArrow: (
+    //   <SamplePrevArrow className={undefined} style={{}} onClick={undefined} />
+    // ),
     // responsive: [
     //   {
     //     breakpoint: 480,
@@ -85,62 +84,45 @@ const BrandSection = () => {
     handleJoinNow();
   };
   return (
-    <div className="my-28">
-      <Slider {...settings} className="bg-black py-10">
-        <div className="px-10">
-          <img
-            className="bg-black mx-10"
-            style={{ width: "fitContent", height: "100px" }}
-            src="https://www.zywa.co/wp-content/uploads/2023/03/fortune-logo-white-1.png"
-            alt=""
-          />
-        </div>
-        <div className="px-10">
-          <img
-            className="bg-black mx-10"
-            style={{ width: "fitContent", height: "100px" }}
-            src="https://www.zywa.co/wp-content/uploads/2023/03/yourstory-logo-white.png"
-            alt=""
-          />
-        </div>
-        <div className="px-10">
-          <img
-            className="bg-black mx-10"
-            style={{ width: "fitContent", height: "100px" }}
-            src="https://www.zywa.co/wp-content/uploads/2023/02/image-8-1.png"
-            alt=""
-          />
-        </div>
-        <div className="px-10">
-          <img
-            className="bg-black mx-10"
-            style={{ width: "fitContent", height: "100px" }}
-            src="https://www.zywa.co/wp-content/uploads/2023/02/image-10-2.png"
-            alt=""
-          />
-        </div>
-        <div className="px-10 flex justify-center items-center">
+    <div className="">
+      <Slider
+        {...settings}
+        className="bg-black flex items-center justify-center"
+      >
+        <img className="mx-10" src="/images/logo1.png" alt="image1" />
+
+        <img className="mx-10 mt-20" src="/images/logo2.png" alt="image2" />
+
+        <img className="mx-10" src="/images/logo3.png" alt="image3" />
+
+        <img className="mx-10" src="/images/logo4.png" alt="image4" />
+
+        <img className="mx-10 mt-20" src="/images/logo5.png" alt="image5" />
+
+        <img className="mx-10" src="/images/logo6.png" alt="image6" />
+
+        {/* <div className="px-10 flex justify-center items-center">
           <h2 className="bg-black px-10 text-white">Brand still loading</h2>
         </div>
         <div className="px-10 ">
           <h2 className="bg-black px-10 text-white">Brand still loading</h2>
-        </div>
+        </div> */}
       </Slider>
 
-      <div className="my-10 flex justify-center">
-        <form className="flex mt-5" onSubmit={handleSubmit}>
+      <div className="my-5 flex justify-center">
+        <form className="flex" onSubmit={handleSubmit}>
           <input
             type="text"
             required
-            placeholder="Name your favourite local brand"
-            className={`text-black rounded-none bg-inherit border border-black px-3 focus:outline-black ${style.placeholderWhite} w-64`}
+            placeholder="Name your favorite local brand"
+            className={`rounded-l-lg text-black  bg-inherit border border-[#fd7f3e] px-3 focus:outline-[#ffb28b] brandPlaceholder w-64`}
             onChange={handleBrandChange}
             value={brand}
           />
           <Button
             type="submit"
             onClick={handleJoinNow}
-            className="rounded-none text-white bg-black"
+            className="rounded-r-lg rounded-l-none text-white bg-[#fd7f3e]"
           >
             Add
           </Button>
@@ -151,7 +133,7 @@ const BrandSection = () => {
           {(onClose) => (
             <>
               <ModalHeader className="bg-[#ffc200]">
-                Name your favourite local brand
+                Name your favorite local brand
               </ModalHeader>
               <ModalBody className=" ">
                 <form action="" className="">
@@ -234,28 +216,28 @@ export default BrandSection;
 
 //
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "gray" }}
-      onClick={onClick}
-    />
-  );
-}
+// function SampleNextArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{ ...style, display: "block", background: "gray" }}
+//       onClick={onClick}
+//     />
+//   );
+// }
 
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        display: "block",
-        background: "gray",
-      }}
-      onClick={onClick}
-    />
-  );
-}
+// function SamplePrevArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{
+//         ...style,
+//         display: "block",
+//         background: "gray",
+//       }}
+//       onClick={onClick}
+//     />
+//   );
+// }

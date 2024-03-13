@@ -1,19 +1,30 @@
+/* eslint-disable @next/next/no-img-element */
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const SecondSection = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 700,
+    });
+  }, []);
   return (
-    <div
-      style={{ backgroundColor: "#fd7f3e" }}
-      className="flex items-center py-20 px-12"
-    >
+    <div className="flex items-center py-20 px-20 bg-[#fd7f3e]">
       <div className="w-1/2 m-5">
         <h2
           className="text-white text-5xl font-extrabold"
           style={{ letterSpacing: "-4px" }}
+          data-aos="fade-right"
+          data-aos-easing="ease-in-sine"
         >
           Are you an influencer?
         </h2>
       </div>
       <div className="w-1/2">
         <img
+          data-aos="fade-down"
+          data-aos-easing="linear"
           style={{ height: "555px", width: "388px" }}
           src="https://www.zywa.co/wp-content/uploads/2023/02/Rectangle-5-716x1024.png"
           alt=""
@@ -28,11 +39,6 @@ const SecondSection = () => {
           Boast is here to revolutionize the way you engage with brands and earn
           rewards for your influence.
         </h2>
-        <img
-          className="mt-4"
-          src="https://www.zywa.co/wp-content/uploads/2023/03/Group-48098234.png"
-          alt=""
-        />
       </div>
     </div>
   );

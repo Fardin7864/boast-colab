@@ -11,5 +11,5 @@
 } */
 
 .placeholderWhite::placeholder {
-  color: black;
+  color: rgb(59, 59, 59);
 }
