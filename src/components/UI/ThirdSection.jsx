@@ -1,4 +1,4 @@
-import React from "react";
+import { motion } from "framer-motion";
 
 const ThirdSection = () => {
   return (
@@ -12,13 +12,25 @@ const ThirdSection = () => {
           alt=""
         />
 
-        <h2
-          className="text-white text-5xl font-bold text-center"
-          style={{ letterSpacing: "-4px" }}
+        <motion.h2
+          animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
+          transition={{
+            duration: 5,
+            delay: 0.3,
+            ease: [0.5, 0.71, 1, 1.5],
+          }}
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileHover={{ scale: 1.2 }}
         >
-          Enjoy free Boast Prepaid card powered by <br /> Dhaka Bank and master
-          card
-        </h2>
+          <span
+            className="text-white text-5xl font-bold text-center"
+            style={{ letterSpacing: "-4px" }}
+          >
+            Get free <span className=" logo">Boast</span> Prepaid card powered
+            by <br /> <span className="dhaka-bank">Dhaka Bank</span> and{" "}
+            <span className="master-card">Master Card</span>
+          </span>
+        </motion.h2>
       </div>
     </div>
   );

@@ -7,6 +7,29 @@ body {
   font-family: "Gilroy ", sans-serif;
 }
 
+
+.logo{
+  background: linear-gradient(to right, #ff4e50, #f9d423);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logo:hover {
+  background: linear-gradient(to right, #ff4e50, #a1df70);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dhaka-bank{
+  background: linear-gradient(to right, #0b539d , #0b539d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.master-card{
+  background: linear-gradient(to right, #eb031b, #f79e1b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /*  */
 
 .brandPlaceholder::placeholder {
@@ -21,3 +44,4 @@ body {
   background: #757575;
   border-radius: 5px;
 }
+
