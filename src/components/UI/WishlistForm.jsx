@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Button, Input, ModalHeader } from "@nextui-org/react";
 import style from "../../styles/WishlistForm.module.css";
 import {
@@ -31,7 +32,10 @@ const WishlistForm = () => {
 
   return (
     <>
-      <div className="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-around items-center py-20 bg-[#ffc200]">
+      <div
+        id="wishlistForm"
+        className="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-around items-center py-20 bg-[#ffc200]"
+      >
         <img
           style={{ width: "663px", height: "549px" }}
           src="https://www.zywa.co/wp-content/uploads/2023/03/Screenshot-2023-03-08-at-12.50.37-AM-1024x848.png"
