@@ -54,7 +54,11 @@ const WishlistForm = () => {
           alt=""
         />
 
-        <div data-aos="fade-left" data-aos-easing="ease-in-sine">
+        <div
+          data-aos="fade-left"
+          data-aos-easing="ease-in-sine"
+          className="mr-36"
+        >
           <h1 className=" text-white text-xl mb-4">
             want to be an early adaptor?
           </h1>
