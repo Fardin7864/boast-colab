@@ -82,7 +82,7 @@ const BrandSection = () => {
         </div>
       </div>
 
-      <p className="text-center mt-7 text-3xl text-white">
+      <p className="text-center mt-7 text-3xl font-bold text-white">
         Don&#x2019;t see your favorite brands?
       </p>
 
