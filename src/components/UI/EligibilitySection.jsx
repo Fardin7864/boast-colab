@@ -15,7 +15,7 @@ const EligibilitySection = () => {
     wishlistSection.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div className=" justify-between flex flex-col lg:flex-row gap-20 lg:gap-0 items-center px-28 py-20 w-full">
+    <div className="justify-between flex flex-col lg:flex-row gap-20 lg:gap-0 items-center px-28 py-20 w-full eligibility-section">
       <div data-aos="fade-right" data-aos-easing="ease-in-sine">
         <h2
           className="text-6xl mb-4 font-extrabold"
@@ -49,7 +49,7 @@ const EligibilitySection = () => {
         <img
           data-aos="fade-down"
           data-aos-easing="ease-in-sine"
-          style={{ width: "548px" }}
+          style={{ width: "648px" }}
           src="/images/red/her.png"
           alt=""
         />

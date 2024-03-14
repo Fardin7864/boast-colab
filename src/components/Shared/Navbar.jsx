@@ -22,7 +22,7 @@ const Navbar = () => {
         /> */}
         <Image
           src={"/logo.png"}
-          width={100}
+          width={90}
           height={0}
           alt="logo"
           className=""

@@ -12,10 +12,7 @@ const ThirdSection = () => {
   }, []);
   return (
     <div className=" -mt-5">
-      <div
-        style={{ backgroundColor: "#81b8fd" }}
-        className=" flex flex-col items-center justify-center py-20"
-      >
+      <div className=" flex flex-col items-center justify-center py-20 card-section">
         <div data-aos="fade-down">
           <img
             style={{ height: "450px", width: "800px" }}
