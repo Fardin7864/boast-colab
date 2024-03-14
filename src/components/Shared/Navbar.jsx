@@ -9,17 +9,6 @@ const Navbar = () => {
   return (
     <div className=" pt-3 drop-shadow-lg bg-slate-100">
       <div className="flex justify-between items-center mx-20">
-        {/* <h1
-          className="text-black text-4xl font-extrabold"
-          style={{ letterSpacing: "-6px" }}
-        >
-          BOAST
-        </h1> */}
-        {/* <img
-          style={{ height: "60px", width: "170px" }}
-          src="/images/logo.png"
-          alt=""
-        /> */}
         <Image
           src={"/logo.png"}
           width={120}
