@@ -29,7 +29,7 @@ const LargestCommunity = () => {
         data-aos="fade-down"
         data-aos-easing="ease-in-sine"
         style={{ width: "680px", height: "400px" }}
-        src="/images/red/red.png"
+        src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710427160/BOAST/red_qkek6i.webp"
         alt=""
       />
     </div>

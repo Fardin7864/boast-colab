@@ -50,7 +50,7 @@ const EligibilitySection = () => {
           data-aos="fade-down"
           data-aos-easing="ease-in-sine"
           style={{ width: "648px" }}
-          src="/images/red/her.png"
+          src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710427161/BOAST/her_lxfudb.png"
           alt=""
         />
       </div>

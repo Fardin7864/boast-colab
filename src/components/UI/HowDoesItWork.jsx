@@ -111,7 +111,12 @@ const HowDoesItWork = () => {
           </div>
         </div>
         <div data-aos="fade-up" at className="w-1/3">
-          <Image src={"/images/6/5.png"} width={500} height={0} alt="phone" />
+          <Image
+            src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710427166/BOAST/5_o6s2an.png"
+            width={500}
+            height={0}
+            alt="phone"
+          />
 
           {/* <iframe
             src="https://lottie.host/embed/256f9631-8f49-4c69-a550-378e2d780f30/AuDhWLtZ98.json"

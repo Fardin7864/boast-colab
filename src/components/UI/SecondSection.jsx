@@ -26,7 +26,7 @@ const SecondSection = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           style={{ height: "555px" }}
-          src="/images/red/2.png"
+          src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710427162/BOAST/2_ski2iz.png"
           alt=""
         />
       </div>

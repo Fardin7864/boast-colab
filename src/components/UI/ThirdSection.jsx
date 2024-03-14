@@ -14,7 +14,11 @@ const ThirdSection = () => {
     <div className=" -mt-5">
       <div className=" flex flex-col items-center justify-center pb-20 card-section">
         <div data-aos="fade-down">
-          <img style={{ width: "500px" }} src="/images/6/6.png" alt="" />
+          <img
+            style={{ width: "500px" }}
+            src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710427167/BOAST/6_fywoij.png"
+            alt=""
+          />
         </div>
 
         <motion.h2

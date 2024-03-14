@@ -50,7 +50,7 @@ const WishlistForm = () => {
           data-aos="fade-right"
           data-aos-easing="ease-in-sine"
           style={{ width: "663px", height: "549px" }}
-          src="/images/wishlist.png"
+          src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710427161/BOAST/Screenshot-2023-03-08-at-12.50.37-AM-1024x848_iitlok.png"
           alt=""
         />
 
