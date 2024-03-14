@@ -9,17 +9,6 @@ const Navbar = () => {
   return (
     <div className=" drop-shadow-lg navbar">
       <div className="flex justify-between items-center mx-24 py-2">
-        {/* <h1
-          className="text-black text-4xl font-extrabold"
-          style={{ letterSpacing: "-6px" }}
-        >
-          BOAST
-        </h1> */}
-        {/* <img
-          style={{ height: "60px", width: "170px" }}
-          src="/images/logo.png"
-          alt=""
-        /> */}
         <Image
           src={
             "https://res.cloudinary.com/dy80ftu9k/image/upload/v1710427159/BOAST/1212_p9r7vr.webp"

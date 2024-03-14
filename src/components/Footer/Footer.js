@@ -11,10 +11,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col my-5 text-white">
             <p className="text-justify text-sm text-gray-200">
-              It is simple! Once you join Boast free membership, you can shop at
-              any of our partner brands. Then, share about your purchase on your
-              social media channels, tagging the brand and get a cashback
-              ranging from 10-100% depending on your social influencing power.
+            Boast provides end-to-end UGC marketing for businesses using their own customers by implementing a cashback model. Brands top up  marketing funds, enabling us to offer cashbacks ranging from 10% to 100% to our members. When customers make purchases and share on social media, they receive cashback rewards.
             </p>
           </div>
         </div>
