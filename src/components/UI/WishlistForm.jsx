@@ -57,19 +57,19 @@ const WishlistForm = () => {
         <div
           data-aos="fade-left"
           data-aos-easing="ease-in-sine"
-          className="mr-36"
+          className="mr-36 flex flex-col items-center justify-center"
         >
-          <h1 className=" text-white text-xl mb-4 font-bold">
+          <h1 className=" text-white text-xl mb-2 font-bold -ml-4">
             Want to be an early adaptor?
           </h1>
           <h2
-            className="text-5xl mb-4 font-extrabold"
+            className="text-5xl mb-2 font-extrabold"
             style={{ letterSpacing: "-4px" }}
           >
             Join our Waitlist!
           </h2>
-          <div className="my-10">
-            <form className="flex mt-5" onSubmit={handleSubmit}>
+          <div className="my-3">
+            <form className="flex " onSubmit={handleSubmit}>
               <input
                 type="email"
                 required

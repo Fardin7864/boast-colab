@@ -33,7 +33,7 @@ const BrandSection = () => {
     handleJoinNow();
   };
   return (
-    <div className="bg-black pb-5">
+    <div className="bg-black py-10">
       <div className="">
         <div className=" pt-3">
           <Marquee>
@@ -88,7 +88,7 @@ const BrandSection = () => {
         </div>
       </div>
 
-      <p className="text-center mt-7 text-md text-white">
+      <p className="text-center mt-7 text-xl text-white">
         Don&#x2019;t see your favorite brands?
       </p>
 
@@ -105,7 +105,7 @@ const BrandSection = () => {
             type="text"
             required
             placeholder="Name your favorite local brand"
-            className={`rounded-l-lg text-white  bg-inherit border border-[#fd7f3e] px-3 focus:outline-[#ffb28b] brandPlaceholder w-64`}
+            className={`rounded-l-lg text-white  bg-white border border-none px-3 focus:outline-none brandPlaceholder w-64`}
             onChange={handleBrandChange}
             value={brand}
           />
