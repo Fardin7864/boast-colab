@@ -28,7 +28,7 @@ const LargestCommunity = () => {
       <img
         data-aos="fade-down"
         data-aos-easing="ease-in-sine"
-        style={{ width: "663px", height: "375px" }}
+        style={{ width: "680px", height: "400px" }}
         src="/images/red/red.png"
         alt=""
       />

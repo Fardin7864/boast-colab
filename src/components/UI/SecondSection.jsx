@@ -25,7 +25,7 @@ const SecondSection = () => {
         <img
           data-aos="fade-down"
           data-aos-easing="linear"
-          style={{ height: "555px", width: "388px" }}
+          style={{ height: "555px" }}
           src="/images/red/2.png"
           alt=""
         />
