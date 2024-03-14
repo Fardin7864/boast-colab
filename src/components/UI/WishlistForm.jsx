@@ -50,7 +50,7 @@ const WishlistForm = () => {
           data-aos="fade-right"
           data-aos-easing="ease-in-sine"
           style={{ width: "663px", height: "549px" }}
-          src="https://www.zywa.co/wp-content/uploads/2023/03/Screenshot-2023-03-08-at-12.50.37-AM-1024x848.png"
+          src="/images/wishlist.png"
           alt=""
         />
 

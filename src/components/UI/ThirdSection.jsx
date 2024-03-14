@@ -12,13 +12,9 @@ const ThirdSection = () => {
   }, []);
   return (
     <div className=" -mt-5">
-      <div className=" flex flex-col items-center justify-center py-20 card-section">
+      <div className=" flex flex-col items-center justify-center pb-20 card-section">
         <div data-aos="fade-down">
-          <img
-            style={{ height: "450px", width: "800px" }}
-            src="https://www.zywa.co/wp-content/uploads/2023/02/perso-1-2.png"
-            alt=""
-          />
+          <img style={{ width: "500px" }} src="/images/6/6.png" alt="" />
         </div>
 
         <motion.h2
