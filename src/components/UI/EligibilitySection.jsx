@@ -16,7 +16,7 @@ const EligibilitySection = () => {
           Eligibility
         </h2>
         <div className="my-10">
-          <h5 className="flex items-center gap-3 font-bold pb-3 text-xl text-[#DE3996]">
+          <h5 className="flex items-center gap-3 font-bold pb-3 text-xl text-[#fd7f3e]">
             <span>
               <FaStar />
             </span>
@@ -29,7 +29,7 @@ const EligibilitySection = () => {
         </div>
         <button
           onClick={handleScrollToWishlist}
-          className="bg-black hover:bg-[#DE3996] text-white font-bold px-6 py-4 rounded-full hover:text-black duration-300 "
+          className="bg-black hover:bg-[#fd7f3e] text-white font-bold px-6 py-4 rounded-full hover:text-black duration-300 "
         >
           Join our waitlist
         </button>
