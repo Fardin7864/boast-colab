@@ -13,7 +13,6 @@ const ThirdSection = () => {
   return (
     <div className=" -mt-5">
       <div
-        
         style={{ backgroundColor: "#81b8fd" }}
         className=" flex flex-col items-center justify-center py-20"
       >
@@ -34,14 +33,17 @@ const ThirdSection = () => {
           }}
           initial={{ opacity: 0, scale: 0.5 }}
           whileHover={{ scale: 1.2 }}
+          className="text-center"
         >
           <span
             className="text-white text-5xl font-bold text-center"
             style={{ letterSpacing: "-4px" }}
           >
-            Get free <span className=" logo">Boast</span> Prepaid card powered
-            by <br /> <span className="dhaka-bank">Dhaka Bank</span> and{" "}
-            <span className=" text-[#eb031b]">Master</span> <span className=" text-[#f79e1b]">Card</span>
+            Every Member gets a Prepaid card powered by <br />
+            <span className="dhaka-bank">Dhaka Bank</span> and
+            <span className=" text-[#eb031b]"> Master </span>
+            <span className=" text-[#f79e1b]">Card </span> <br /> Use the card
+            to spend your Cashbacks anywhere.
           </span>
         </motion.h2>
       </div>
