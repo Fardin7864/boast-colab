@@ -33,9 +33,9 @@ const BrandSection = () => {
     handleJoinNow();
   };
   return (
-    <div className=" pb-5 brand-section">
+    <div className=" pb-14  brand-section">
       <div className="">
-        <div className=" pt-2">
+        <div className=" pt-7">
           <Marquee autoFill="true">
             <img
               className=" mr-10"
@@ -82,13 +82,14 @@ const BrandSection = () => {
         </div>
       </div>
 
-      <p className="text-center mt-5 text-3xl font-bold text-white">
+      <p className="text-center mt-5 text-3xl font-bold text-white" 
+      style={{ letterSpacing: "3px" }}>
         Don&#x2019;t see your favorite brands?
       </p>
 
       <h2
-        className="text-center pb-3 text-lg font-bold text-slate-100"
-        style={{ letterSpacing: "-1px", fontFamily: "Gilroy" }}
+        className="text-center pb-3 pt-3 text-lg font-bold text-slate-100"
+        style={{ fontFamily: "Gilroy" }}
       >
         Which brands you want to see partner with us next?
       </h2>
