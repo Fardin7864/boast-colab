@@ -100,7 +100,7 @@ const BrandSection = () => {
       </p>
 
       <h2
-        className="text-center py-4 text-3xl font-bold text-slate-100"
+        className="text-center py-4 text-2xl font-bold text-slate-100"
         style={{ letterSpacing: "-1px", fontFamily: "Gilroy" }}
       >
         Which brands you want to see partner with us next?
