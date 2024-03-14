@@ -29,7 +29,7 @@ const Navbar = () => {
         />
         <button
           onClick={handleScrollToWishlist}
-          className="bg-white hover:bg-[#fd7f3e] text-black font-bold px-6 py-3 rounded-full hover:text-black duration-300 "
+          className="bg-white hover:bg-[#fd7f3e] text-black font-bold px-6 py-2 rounded-full hover:text-black duration-300 "
         >
           Get Boast
         </button>
