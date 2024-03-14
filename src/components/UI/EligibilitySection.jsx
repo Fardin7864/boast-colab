@@ -15,7 +15,7 @@ const EligibilitySection = () => {
     wishlistSection.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div className=" justify-between flex flex-col lg:flex-row gap-20 lg:gap-0  items-center p-20">
+    <div className=" justify-between flex flex-col lg:flex-row gap-20 lg:gap-0  items-center p-20 w-full">
       <div data-aos="fade-right" data-aos-easing="ease-in-sine">
         <h2
           className="text-6xl mb-4 font-extrabold"
@@ -47,10 +47,10 @@ const EligibilitySection = () => {
 
       <div>
         <img
-          data-aos="fade-left"
+          data-aos="fade-down"
           data-aos-easing="ease-in-sine"
           style={{ width: "548px" }}
-          src="https://www.zywa.co/wp-content/uploads/2023/02/Group-48098228.png"
+          src="/images/red/her.png"
           alt=""
         />
       </div>

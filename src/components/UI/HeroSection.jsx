@@ -51,7 +51,7 @@ const HeroSection = () => {
         <img
           className="mb-20"
           style={{ width: "548px", height: "582px" }}
-          src="https://www.zywa.co/wp-content/uploads/2023/03/Group-48098216-2-930x1024.png"
+          src="/images/red/hero.png"
           alt=""
         />
       </div>

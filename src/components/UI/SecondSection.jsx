@@ -26,7 +26,7 @@ const SecondSection = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           style={{ height: "555px", width: "388px" }}
-          src="https://www.zywa.co/wp-content/uploads/2023/02/Rectangle-5-716x1024.png"
+          src="/images/red/2.png"
           alt=""
         />
       </div>
