@@ -33,9 +33,9 @@ const BrandSection = () => {
     handleJoinNow();
   };
   return (
-    <div className="bg-black py-10">
+    <div className="bg-black pb-5">
       <div className="">
-        <div className=" pt-3">
+        <div className=" pt-2">
           <Marquee autoFill="true">
             <img
               className=" mr-10"
@@ -82,18 +82,18 @@ const BrandSection = () => {
         </div>
       </div>
 
-      <p className="text-center mt-7 text-3xl font-bold text-white">
+      <p className="text-center mt-5 text-3xl font-bold text-white">
         Don&#x2019;t see your favorite brands?
       </p>
 
       <h2
-        className="text-center py-4 text-lg font-bold text-slate-100"
+        className="text-center pb-3 text-lg font-bold text-slate-100"
         style={{ letterSpacing: "-1px", fontFamily: "Gilroy" }}
       >
         Which brands you want to see partner with us next?
       </h2>
 
-      <div className="my-5 flex justify-center">
+      <div className=" flex justify-center mb-5 mt-2">
         <form className="flex" onSubmit={handleSubmit}>
           <input
             type="text"
