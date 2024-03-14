@@ -7,7 +7,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="flex justify-between items-center pt-5 bg-slate-100 mx-28 bg-opacity-50" style={{ backgroundImage: 'url("/herobg.jpg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <div className="flex justify-between items-center pt-5 bg-slate-100 mx-28 bg-opacity-50">
       <div>
         <h2
           className="text-5xl font-extrabold"
