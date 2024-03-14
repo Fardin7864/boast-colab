@@ -93,7 +93,7 @@ const BrandSection = () => {
         Which brands you want to see partner with us next?
       </h2>
 
-      <div className=" flex justify-center mb-5 mt-2">
+      <div className=" flex justify-center mb-6 mt-2">
         <form className="flex" onSubmit={handleSubmit}>
           <input
             type="text"
