@@ -42,54 +42,14 @@ export default function HomePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* <CustomScrollbar>
-        <p>hello</p>
-      </CustomScrollbar> */}
-
-      <div>
-        <HeroSection />
-        <SecondSection />
-        <BrandSection />
-        <ThirdSection />
-        <HowDoesItWork />
-        <LargestCommunity />
-        <EligibilitySection />
-        <WishlistForm />
-      </div>
-
-      {/*  */}
-
-      {/* <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
-        <ModalContent>
-          {(onClose) => (
-            <>
-              <ModalBody>
-                <form action="">
-                  <Input
-                    type="email"
-                    label="Email"
-                    placeholder="Enter your email"
-                    value="afsana"
-                  />
-                </form>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam pulvinar risus non risus hendrerit venenatis.
-                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                </p>
-              </ModalBody>
-              <ModalFooter>
-                <Button color="danger" variant="light" onPress={onClose}>
-                  Close
-                </Button>
-                <Button color="primary" onPress={onClose}>
-                  Action
-                </Button>
-              </ModalFooter>
-            </>
-          )}
-        </ModalContent>
-      </Modal> */}
+      <HeroSection />
+      <SecondSection />
+      <BrandSection />
+      <ThirdSection />
+      <HowDoesItWork />
+      <LargestCommunity />
+      <EligibilitySection />
+      <WishlistForm />
     </div>
   );
 }
