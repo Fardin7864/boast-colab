@@ -32,7 +32,7 @@ const SecondSection = () => {
       </div>
       <div className="w-1/2">
         <h2
-          className="text-white text-xl font-bold"
+          className="text-white text-xl font-bold text-justify"
           style={{ letterSpacing: "-1px" }}
         >
           Are you an influencer looking to monetize your social media presence?
