@@ -12,14 +12,15 @@ import LargestCommunity from "@/components/UI/LargestCommunity";
 
 export default function HomePage() {
   return (
-    <>
+    <div className=" bg-slate-100">
       <AnimatedCursor
-        innerSize={16}
-        outerSize={16}
-        color="193, 11, 111"
+        innerSize={15}
+        outerSize={0}
+        color="#fff"
         outerAlpha={0.2}
-        innerScale={0.7}
-        outerScale={5}
+        innerScale={2}
+        outerScale={0}
+        innerStyle={{border: '2px solid black', backgroundColor: '#fd7f3e'}}
         clickables={[
           "a",
           'input[type="text"]',
@@ -88,7 +89,7 @@ export default function HomePage() {
           )}
         </ModalContent>
       </Modal> */}
-    </>
+    </div>
   );
 }
 

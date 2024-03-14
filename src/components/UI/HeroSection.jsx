@@ -6,7 +6,7 @@ const HeroSection = () => {
     wishlistSection.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div className="flex justify-around mx-5 items-center pt-5">
+    <div className="flex justify-around mx-5 items-center pt-5 bg-slate-100">
       <div>
         <h2
           className="text-5xl font-extrabold"
