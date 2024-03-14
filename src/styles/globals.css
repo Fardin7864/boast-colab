@@ -93,3 +93,8 @@
   background-image: url("https://assets.website-files.com/5837424ae11409586f837994/611b2d3c1a84f270060c9ec1_Texture.png"),
     linear-gradient(#fd7f3e, #fd7f3e);
 }
+
+.footer {
+  background-image: url("https://assets.website-files.com/5837424ae11409586f837994/611b2d3c1a84f270060c9ec1_Texture.png"),
+    linear-gradient(#f0f0f0, #eeeeee);
+}
