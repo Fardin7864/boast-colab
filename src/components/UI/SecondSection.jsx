@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
 import { useEffect } from "react";
 
 const SecondSection = () => {
@@ -10,7 +11,7 @@ const SecondSection = () => {
     });
   }, []);
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between px-28 py-10 second-section">
+    <div className="flex flex-col lg:flex-row items-center justify-between px-28 pt-28 second-section gap-20">
       <div
         className="w-1/2"
         data-aos="fade-right"
@@ -35,16 +36,17 @@ const SecondSection = () => {
           a minimum of 1000 followers. Our Membership is free.
         </h2>
       </div>
-      <div className="w-1/2 ">
-        <img
-          className="mx-auto block"
-          data-aos="fade-down"
-          data-aos-easing="linear"
-          style={{ height: "555px" }}
-          src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710427162/BOAST/2_ski2iz.png"
-          alt=""
-        />
-      </div>
+
+      <Image
+        // className="mx-auto block"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        height={400}
+        width={500}
+        // src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710434061/BOAST/redsection_wqz2cz.png"
+        src="/images/orange2.png"
+        alt=""
+      />
     </div>
   );
 };

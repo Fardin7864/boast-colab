@@ -54,8 +54,8 @@ const HeroSection = () => {
 
       <div>
         <img
-          className="mb-20"
-          style={{ width: "548px", height: "582px" }}
+          className="mb-14"
+          style={{ width: "560px" }}
           src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710427161/BOAST/hero_oiqkwz.png"
           alt=""
         />

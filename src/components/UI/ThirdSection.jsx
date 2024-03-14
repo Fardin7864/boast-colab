@@ -15,9 +15,9 @@ const ThirdSection = () => {
       <div className=" flex flex-col items-center justify-center pb-20 card-section">
         <div data-aos="fade-down">
           <img
-            className="block mx-auto ml-40"
+            className="block mx-auto "
             style={{ width: "500px" }}
-            src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710427167/BOAST/6_fywoij.png"
+            src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710434063/BOAST/6_o2qasw.png"
             alt=""
           />
         </div>
@@ -31,17 +31,17 @@ const ThirdSection = () => {
           }}
           initial={{ opacity: 0, scale: 0.5 }}
           whileHover={{ scale: 1.2 }}
-          className="text-center"
+          className="text-center mr-20"
         >
           <span
             className="text-white text-4xl font-bold text-center"
             style={{ letterSpacing: "-2px" }}
           >
             Every Member gets a Prepaid card powered by <br />
-            <span className="dhaka-bank">Dhaka Bank</span> and
-            <span className=" text-[#eb031b]"> Master </span>
+            <span className="dhaka-bank text-center">Dhaka Bank</span> and
+            <span className=" text-[#eb031b] "> Master </span>
             <span className=" text-[#f79e1b]">Card </span> <br />{" "}
-            <span className="text-black">
+            <span className="text-black text-center">
               {" "}
               Use the card to spend your Cashbacks anywhere.
             </span>
