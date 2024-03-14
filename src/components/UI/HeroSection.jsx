@@ -5,9 +5,9 @@ const HeroSection = () => {
     const wishlistSection = document.getElementById("wishlistForm");
     wishlistSection.scrollIntoView({ behavior: "smooth" });
   };
+
   return (
-    // <div className="flex justify-around mx-5 items-center pt-5 bg-slate-100">
-    <div className="flex justify-between items-center pt-5 bg-slate-100 mx-28">
+    <div className="flex justify-between items-center pt-5 bg-slate-100 mx-28 bg-opacity-50" style={{ backgroundImage: 'url("/herobg.jpg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div>
         <h2
           className="text-5xl font-extrabold"
@@ -29,12 +29,11 @@ const HeroSection = () => {
               ]}
               wrapper="span"
               speed={30}
-              // style={{ fontSize: '1rem', display: 'inline-block' }}
               repeat={Infinity}
             />
           </span>
         </h2>
-        <p className="my-7 text-2xl font-semibold text-gray-700">
+        <p className="my-7 text-3xl font-semibold text-gray-700">
           Encash your influence
         </p>
         <button

@@ -11,14 +11,14 @@ const Navbar = () => {
       <div className="flex justify-between items-center mx-20">
         <Image
           src={"/logo.png"}
-          width={100}
+          width={80}
           height={0}
           alt="logo"
           className=""
         />
         <button
           onClick={handleScrollToWishlist}
-          className="bg-black hover:bg-[#fd7f3e] text-white font-bold px-6 py-4 rounded-full hover:text-black mb-4 duration-300 "
+          className="bg-black hover:bg-[#fd7f3e] text-white font-bold px-6 py-2 rounded-full hover:text-black mb-4 duration-300 "
         >
           Get Boast
         </button>
