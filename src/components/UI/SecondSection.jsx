@@ -32,8 +32,8 @@ const SecondSection = () => {
       </div>
       <div className="w-1/2">
         <h2
-          className="text-white text-xl font-bold text-justify"
-          style={{ letterSpacing: "-1px" }}
+          className="text-white text-xl font-semibold text-justify"
+          style={{ letterSpacing: "-1px", fontFamily: "Montserrat" }}
         >
           Are you an influencer looking to monetize your social media presence?
           Even if you are not, it doesn&#x2019;t hurt getting things for free,

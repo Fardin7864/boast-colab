@@ -1,4 +1,5 @@
 /* @import url("./fonts.css"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -97,4 +98,8 @@
 .footer {
   background-image: url("https://assets.website-files.com/5837424ae11409586f837994/611b2d3c1a84f270060c9ec1_Texture.png"),
     linear-gradient(#f0f0f0, #eeeeee);
+}
+
+.navbar {
+  background-color: #242424;
 }
