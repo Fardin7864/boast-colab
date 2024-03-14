@@ -44,7 +44,7 @@ const WishlistForm = () => {
     <>
       <div
         id="wishlistForm"
-        className="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-between items-center px-28 py-20 bg-[#ffc200]"
+        className="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-between items-center px-28 py-20 wishlist-section"
       >
         <img
           data-aos="fade-right"

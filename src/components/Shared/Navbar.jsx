@@ -7,18 +7,38 @@ const Navbar = () => {
     wishlistSection.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div className=" pt-3 drop-shadow-lg bg-slate-100">
-      <div className="flex justify-between items-center mx-20">
+
+   
+       
+
+    <div className=" drop-shadow-lg navbar">
+      <div className="flex justify-between items-center mx-24 py-2">
+        {/* <h1
+          className="text-black text-4xl font-extrabold"
+          style={{ letterSpacing: "-6px" }}
+        >
+          BOAST
+        </h1> */}
+        {/* <img
+          style={{ height: "60px", width: "170px" }}
+          src="/images/logo.png"
+          alt=""
+        /> */}
         <Image
-          src={"/logo.png"}
-          width={80}
+          src={"/images/1212.png"}
+          width={100}
+
           height={0}
           alt="logo"
           className=""
         />
         <button
           onClick={handleScrollToWishlist}
-          className="bg-black hover:bg-[#fd7f3e] text-white font-bold px-6 py-2 rounded-full hover:text-black mb-4 duration-300 "
+
+        
+
+          className="bg-white hover:bg-[#fd7f3e] text-black font-bold px-6 py-2 rounded-full hover:text-black duration-300 "
+
         >
           Get Boast
         </button>
