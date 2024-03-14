@@ -67,7 +67,7 @@ const HowDoesItWork = () => {
                 className="text-black text-2xl flex items-center gap-2 my-3"
                 style={{ letterSpacing: "-2px" }}
               >
-                <span className="text-sm mt-2">
+                <span className="text-sm">
                   <FaStar className=" text-2xl text-orange-500" />
                 </span>
                 You become our member.
@@ -76,7 +76,7 @@ const HowDoesItWork = () => {
                 className="text-black text-2xl flex items-center gap-2 my-3"
                 style={{ letterSpacing: "-2px" }}
               >
-                <span className="text-sm mt-2">
+                <span className="text-sm">
                   <FaStar className=" text-2xl text-orange-500" />
                 </span>
                 Shop from any of our Partner Brands and post it on social media.
@@ -85,7 +85,7 @@ const HowDoesItWork = () => {
                 className="text-black text-2xl flex items-center gap-2 my-3"
                 style={{ letterSpacing: "-2px" }}
               >
-                <span className="text-sm mt-2">
+                <span className="text-sm">
                   <FaStar className=" text-2xl text-orange-500" />
                 </span>
 
