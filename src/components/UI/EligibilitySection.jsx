@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { FaStar } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -48,7 +49,7 @@ const EligibilitySection = () => {
         <img
           data-aos="fade-left"
           data-aos-easing="ease-in-sine"
-          style={{ width: "548px", height: "582px" }}
+          style={{ width: "548px" }}
           src="https://www.zywa.co/wp-content/uploads/2023/02/Group-48098228.png"
           alt=""
         />
