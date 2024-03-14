@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
@@ -7,10 +8,8 @@ const HeroSection = () => {
   };
 
   return (
-
     // <div className="flex justify-around mx-5 items-center pt-5 bg-slate-100">
     <div className="flex justify-between items-center pt-5 px-28 hero-section">
-
       <div>
         <h2
           className="text-5xl font-extrabold"
@@ -37,12 +36,10 @@ const HeroSection = () => {
           </span>
         </h2>
 
-
         <p
           className="my-7 text-2xl font-semibold text-gray-700"
           style={{ fontFamily: "Montserrat" }}
         >
-
           Encash your influence
         </p>
         <button
