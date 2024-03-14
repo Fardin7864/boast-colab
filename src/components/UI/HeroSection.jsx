@@ -14,13 +14,13 @@ const HeroSection = () => {
           style={{ letterSpacing: "-4px" }}
         >
           Upto 100% cashback <br />
-          <span className="text-[#DE3996]">
+          <span className="text-[#fd7f3e]">
             {" "}
             on your
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                " Shoutout",
+                 " Shoutout",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                 " Post",
                 1000,
@@ -34,7 +34,7 @@ const HeroSection = () => {
             />
           </span>
         </h2>
-        <p className="my-7 text-2xl font-semibold">Encash your influence</p>
+        <p className="my-7 text-2xl font-semibold text-gray-700">Encash your influence</p>
         <button
           onClick={handleScrollToWishlist}
           className="bg-black hover:bg-[#DE3996] text-white font-bold px-6 py-4 rounded-full hover:text-black duration-300 "
