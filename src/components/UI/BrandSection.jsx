@@ -82,12 +82,12 @@ const BrandSection = () => {
         </div>
       </div>
 
-      <p className="text-center mt-7 text-xl text-white">
+      <p className="text-center mt-7 text-3xl text-white">
         Don&#x2019;t see your favorite brands?
       </p>
 
       <h2
-        className="text-center py-4 text-2xl font-bold text-slate-100"
+        className="text-center py-4 text-lg font-bold text-slate-100"
         style={{ letterSpacing: "-1px", fontFamily: "Gilroy" }}
       >
         Which brands you want to see partner with us next?
