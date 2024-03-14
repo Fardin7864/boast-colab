@@ -39,34 +39,34 @@ const BrandSection = () => {
           <Marquee>
             <img
               className=""
-              style={{ height: "40px", width: "65px" }}
+              style={{ height: "80px", width: "100px" }}
               src="/images/logo1.png"
               alt="image1"
             />
 
             <img
-              style={{ height: "40px" }}
+              style={{ height: "30px" }}
               className="mx-10 "
               src="/images/logo2.png"
               alt="image2"
             />
 
             <img
-              style={{ height: "40px" }}
+              style={{ height: "70px", width: "100px" }}
               className="mx-10"
               src="/images/logo3.png"
               alt="image3"
             />
 
             <img
-              style={{ height: "40px" }}
+              style={{ height: "80px", width: "90px" }}
               className="mx-10"
               src="/images/logo4.png"
               alt="image4"
             />
 
             <img
-              style={{ height: "40px" }}
+              style={{ height: "30px" }}
               className="mx-10"
               src="/images/logo5.png"
               alt="image5"
@@ -74,15 +74,22 @@ const BrandSection = () => {
 
             <img
               className="ml-20"
-              style={{ height: "40px" }}
+              style={{ height: "80px", width: "90px" }}
               src="/images/logo6.png"
               alt="image6"
             />
             <img
+              style={{ height: "70px", width: "100px" }}
               className="ml-20"
-              style={{ height: "40px" }}
               src="/images/logo3.png"
               alt="image3"
+            />
+
+            <img
+              style={{ height: "80px", width: "90px" }}
+              className="mx-10"
+              src="/images/logo4.png"
+              alt="image4"
             />
           </Marquee>
         </div>
