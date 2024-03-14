@@ -44,7 +44,7 @@ const WishlistForm = () => {
     <>
       <div
         id="wishlistForm"
-        className="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-between items-center p-20 bg-[#ffc200]"
+        className="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-between items-center px-28 py-20 bg-[#ffc200]"
       >
         <img
           data-aos="fade-right"
@@ -57,7 +57,7 @@ const WishlistForm = () => {
         <div
           data-aos="fade-left"
           data-aos-easing="ease-in-sine"
-          className="mr-36 flex flex-col items-center justify-center"
+          className="mr-24 flex flex-col items-center justify-center"
         >
           <h1 className=" text-white text-xl mb-2 font-bold -ml-4">
             Want to be an early adaptor?

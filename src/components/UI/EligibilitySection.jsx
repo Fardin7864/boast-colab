@@ -15,7 +15,7 @@ const EligibilitySection = () => {
     wishlistSection.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div className=" justify-between flex flex-col lg:flex-row gap-20 lg:gap-0  items-center p-20 w-full">
+    <div className=" justify-between flex flex-col lg:flex-row gap-20 lg:gap-0 items-center px-28 py-20 w-full">
       <div data-aos="fade-right" data-aos-easing="ease-in-sine">
         <h2
           className="text-6xl mb-4 font-extrabold"

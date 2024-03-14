@@ -10,7 +10,7 @@ const LargestCommunity = () => {
     });
   }, []);
   return (
-    <div className="flex flex-col lg:flex-row gap-20 justify-between items-center bg-[#ff3b46] p-20 w-full">
+    <div className="flex flex-col lg:flex-row gap-20 justify-between items-center bg-[#ff3b46] px-28 py-20 w-full">
       <div className="" data-aos="fade-right" data-aos-easing="ease-in-sine">
         <h2
           className="text-5xl mb-4 font-extrabold text-white"
