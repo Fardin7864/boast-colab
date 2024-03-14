@@ -33,7 +33,7 @@ const BrandSection = () => {
     handleJoinNow();
   };
   return (
-    <div className=" pb-5 brand-section">
+    <div className="pt-3 pb-7 brand-section">
       <div className="">
         <div className=" pt-2">
           <Marquee autoFill="true">

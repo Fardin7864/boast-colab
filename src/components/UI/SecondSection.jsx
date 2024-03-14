@@ -11,26 +11,17 @@ const SecondSection = () => {
   }, []);
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between px-28 py-10 second-section">
-      <div className="w-1/3">
+      <div
+        className="w-1/2"
+        data-aos="fade-right"
+        data-aos-easing="ease-in-sine"
+      >
         <h2
-          className="text-white text-6xl font-extrabold"
+          className="text-white text-6xl font-extrabold mb-6"
           style={{ letterSpacing: "-2px" }}
-          data-aos="fade-right"
-          data-aos-easing="ease-in-sine"
         >
           Are you an influencer?
         </h2>
-      </div>
-      <div className="w-1/2">
-        <img
-          data-aos="fade-down"
-          data-aos-easing="linear"
-          style={{ height: "555px" }}
-          src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710427162/BOAST/2_ski2iz.png"
-          alt=""
-        />
-      </div>
-      <div className="w-1/2">
         <h2
           className="text-white text-xl font-semibold text-justify"
           style={{ letterSpacing: "-1px", fontFamily: "Montserrat" }}
@@ -43,6 +34,16 @@ const SecondSection = () => {
           your way every now and then. You can apply for Membership if you have
           a minimum of 1000 followers. Our Membership is free.
         </h2>
+      </div>
+      <div className="w-1/2 ">
+        <img
+          className="mx-auto block"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          style={{ height: "555px" }}
+          src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710427162/BOAST/2_ski2iz.png"
+          alt=""
+        />
       </div>
     </div>
   );

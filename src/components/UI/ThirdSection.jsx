@@ -15,6 +15,7 @@ const ThirdSection = () => {
       <div className=" flex flex-col items-center justify-center pb-20 card-section">
         <div data-aos="fade-down">
           <img
+            className="block mx-auto ml-20"
             style={{ width: "500px" }}
             src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710427167/BOAST/6_fywoij.png"
             alt=""
@@ -39,8 +40,11 @@ const ThirdSection = () => {
             Every Member gets a Prepaid card powered by <br />
             <span className="dhaka-bank">Dhaka Bank</span> and
             <span className=" text-[#eb031b]"> Master </span>
-            <span className=" text-[#f79e1b]">Card </span> <br /> Use the card
-            to spend your Cashbacks anywhere.
+            <span className=" text-[#f79e1b]">Card </span> <br />{" "}
+            <span className="text-black">
+              {" "}
+              Use the card to spend your Cashbacks anywhere.
+            </span>
           </span>
         </motion.h2>
       </div>

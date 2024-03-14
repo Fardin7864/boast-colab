@@ -112,7 +112,7 @@ const HowDoesItWork = () => {
         </div>
         <div data-aos="fade-up" at className="w-1/3">
           <Image
-            src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710427166/BOAST/5_o6s2an.png"
+            src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710428735/BOAST/12345678_q34njy.png"
             width={500}
             height={0}
             alt="phone"
