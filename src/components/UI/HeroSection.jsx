@@ -7,7 +7,7 @@ const HeroSection = () => {
   };
   return (
     // <div className="flex justify-around mx-5 items-center pt-5 bg-slate-100">
-    <div className="flex justify-between items-center pt-5 bg-slate-100 mx-28">
+    <div className="flex justify-between items-center pt-5 px-28 hero-section">
       <div>
         <h2
           className="text-5xl font-extrabold"
