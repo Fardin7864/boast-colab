@@ -111,7 +111,7 @@ const HowDoesItWork = () => {
           </div>
         </div>
         <div data-aos="fade-up" at className="w-1/3">
-          <Image src={"/phone.png"} width={500} height={0} alt="phone" />
+          <Image src={"/images/6/5.png"} width={500} height={0} alt="phone" />
 
           {/* <iframe
             src="https://lottie.host/embed/256f9631-8f49-4c69-a550-378e2d780f30/AuDhWLtZ98.json"
