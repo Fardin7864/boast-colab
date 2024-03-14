@@ -7,7 +7,7 @@ const HeroSection = () => {
   };
   return (
     // <div className="flex justify-around mx-5 items-center pt-5 bg-slate-100">
-    <div className="flex justify-between items-center pt-5 bg-slate-100 mx-20">
+    <div className="flex justify-between items-center pt-5 bg-slate-100 mx-28">
       <div>
         <h2
           className="text-5xl font-extrabold"
@@ -20,7 +20,7 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                 " Shoutout",
+                " Shoutout",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                 " Post",
                 1000,
@@ -34,10 +34,12 @@ const HeroSection = () => {
             />
           </span>
         </h2>
-        <p className="my-7 text-2xl font-semibold text-gray-700">Encash your influence</p>
+        <p className="my-7 text-2xl font-semibold text-gray-700">
+          Encash your influence
+        </p>
         <button
           onClick={handleScrollToWishlist}
-          className="bg-black hover:bg-[#DE3996] text-white font-bold px-6 py-4 rounded-full hover:text-black duration-300 "
+          className="bg-black hover:bg-[#fd7f3e] text-white font-bold px-6 py-4 rounded-full hover:text-black duration-300 "
         >
           Early access
         </button>
@@ -47,8 +49,9 @@ const HeroSection = () => {
 
       <div>
         <img
+          className="mb-20"
           style={{ width: "548px", height: "582px" }}
-          src="https://www.zywa.co/wp-content/uploads/2023/03/Group-48098216-2-930x1024.png"
+          src="/images/red/hero.png"
           alt=""
         />
       </div>

@@ -10,7 +10,7 @@ const LargestCommunity = () => {
     });
   }, []);
   return (
-    <div className="flex flex-col lg:flex-row gap-20 justify-between items-center bg-[#ff3b46] p-20">
+    <div className="flex flex-col lg:flex-row gap-20 justify-between items-center bg-[#ff3b46] px-28 py-20 w-full">
       <div className="" data-aos="fade-right" data-aos-easing="ease-in-sine">
         <h2
           className="text-5xl mb-4 font-extrabold text-white"
@@ -26,10 +26,10 @@ const LargestCommunity = () => {
 
       {/*  */}
       <img
-        data-aos="fade-left"
+        data-aos="fade-down"
         data-aos-easing="ease-in-sine"
-        style={{ width: "663px", height: "375px" }}
-        src="https://www.zywa.co/wp-content/uploads/2023/03/70EFFDB2-67EF-4592-819B-8C56EF7F7A98-1024x576.jpg"
+        style={{ width: "680px", height: "400px" }}
+        src="/images/red/red.png"
         alt=""
       />
     </div>

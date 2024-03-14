@@ -42,6 +42,7 @@ export default function HomePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+<<<<<<< HEAD
       {/* <CustomScrollbar>
         <p>hello</p>
       </CustomScrollbar> */}
@@ -56,6 +57,16 @@ export default function HomePage() {
         <EligibilitySection />
         <WishlistForm />
       </div>
+=======
+      <HeroSection />
+      <SecondSection />
+      <BrandSection />
+      <ThirdSection />
+      <HowDoesItWork />
+      <LargestCommunity />
+      <EligibilitySection />
+      <WishlistForm />
+>>>>>>> 82e66167d967ca04e5d566da8bad5b2cbbe04bfd
     </div>
   );
 }

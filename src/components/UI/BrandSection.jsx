@@ -33,79 +33,73 @@ const BrandSection = () => {
     handleJoinNow();
   };
   return (
-    <div className="bg-black pb-5">
+    <div className=" pb-5 brand-section">
       <div className="">
-        <div className=" pt-3">
-          <Marquee>
+        <div className=" pt-2">
+          <Marquee autoFill="true">
             <img
-              className=""
-              style={{ height: "40px", width: "65px" }}
+              className=" mr-10"
+              style={{ height: "80px", width: "100px" }}
               src="/images/logo1.png"
               alt="image1"
             />
 
             <img
-              style={{ height: "40px" }}
-              className="mx-10 "
+              style={{ height: "35px" }}
+              className=" mr-10"
               src="/images/logo2.png"
               alt="image2"
             />
 
             <img
-              style={{ height: "40px" }}
-              className="mx-10"
+              style={{ height: "100px", width: "90px" }}
+              className=" mr-10"
               src="/images/logo3.png"
               alt="image3"
             />
 
             <img
-              style={{ height: "40px" }}
-              className="mx-10"
+              style={{ height: "90px", width: "100px" }}
+              className=" mr-10"
               src="/images/logo4.png"
               alt="image4"
             />
 
             <img
-              style={{ height: "40px" }}
-              className="mx-10"
+              style={{ height: "30px" }}
+              className=" mr-10"
               src="/images/logo5.png"
               alt="image5"
             />
 
             <img
-              className="ml-20"
-              style={{ height: "40px" }}
+              className=" mr-10"
+              style={{ height: "100px", width: "90px" }}
               src="/images/logo6.png"
               alt="image6"
-            />
-            <img
-              className="ml-20"
-              style={{ height: "40px" }}
-              src="/images/logo3.png"
-              alt="image3"
             />
           </Marquee>
         </div>
       </div>
 
-      <p className="text-center mt-7 text-md text-white">
+      <p className="text-center mt-5 text-3xl font-bold text-white">
         Don&#x2019;t see your favorite brands?
       </p>
 
       <h2
-        className="text-center py-4 text-3xl font-bold text-slate-100"
+        className="text-center pb-3 text-lg font-bold text-slate-100"
         style={{ letterSpacing: "-1px", fontFamily: "Gilroy" }}
       >
         Which brands you want to see partner with us next?
       </h2>
 
-      <div className="my-5 flex justify-center">
+      <div className=" flex justify-center mb-8 mt-2">
         <form className="flex" onSubmit={handleSubmit}>
           <input
             type="text"
             required
             placeholder="Name your favorite local brand"
-            className={`rounded-l-lg text-white  bg-inherit border border-[#fd7f3e] px-3 focus:outline-[#ffb28b] brandPlaceholder w-64`}
+            className={`rounded-l-lg text-white  bg-white border border-none px-3 focus:outline-none brandPlaceholder w-64`}
             onChange={handleBrandChange}
             value={brand}
           />

@@ -10,7 +10,7 @@ const SecondSection = () => {
     });
   }, []);
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between bg-[#fd7f3e] px-20 py-10">
+    <div className="flex flex-col lg:flex-row items-center justify-between bg-[#fd7f3e] px-28 py-10">
       <div className="w-1/3">
         <h2
           className="text-white text-6xl font-extrabold"
@@ -25,14 +25,14 @@ const SecondSection = () => {
         <img
           data-aos="fade-down"
           data-aos-easing="linear"
-          style={{ height: "555px", width: "388px" }}
-          src="https://www.zywa.co/wp-content/uploads/2023/02/Rectangle-5-716x1024.png"
+          style={{ height: "555px" }}
+          src="/images/red/2.png"
           alt=""
         />
       </div>
       <div className="w-1/2">
         <h2
-          className="text-white text-xl font-bold"
+          className="text-white text-xl font-bold text-justify"
           style={{ letterSpacing: "-1px" }}
         >
           Are you an influencer looking to monetize your social media presence?

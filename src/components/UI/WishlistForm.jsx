@@ -44,7 +44,7 @@ const WishlistForm = () => {
     <>
       <div
         id="wishlistForm"
-        className="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-between items-center p-20 bg-[#ffc200]"
+        className="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-between items-center px-28 py-20 bg-[#ffc200]"
       >
         <img
           data-aos="fade-right"
@@ -54,18 +54,22 @@ const WishlistForm = () => {
           alt=""
         />
 
-        <div data-aos="fade-left" data-aos-easing="ease-in-sine">
-          <h1 className=" text-white text-xl mb-4">
-            want to be an early adaptor?
+        <div
+          data-aos="fade-left"
+          data-aos-easing="ease-in-sine"
+          className="mr-24 flex flex-col items-center justify-center"
+        >
+          <h1 className=" text-white text-xl mb-2 font-bold -ml-4">
+            Want to be an early adaptor?
           </h1>
           <h2
-            className="text-5xl mb-4 font-extrabold"
+            className="text-5xl mb-2 font-extrabold"
             style={{ letterSpacing: "-4px" }}
           >
-            join our Waitlist!
+            Join our Waitlist!
           </h2>
-          <div className="my-10">
-            <form className="flex mt-5" onSubmit={handleSubmit}>
+          <div className="my-3">
+            <form className="flex " onSubmit={handleSubmit}>
               <input
                 type="email"
                 required

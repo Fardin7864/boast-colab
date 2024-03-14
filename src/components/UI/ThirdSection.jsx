@@ -36,8 +36,8 @@ const ThirdSection = () => {
           className="text-center"
         >
           <span
-            className="text-white text-5xl font-bold text-center"
-            style={{ letterSpacing: "-4px" }}
+            className="text-white text-4xl font-bold text-center"
+            style={{ letterSpacing: "-2px" }}
           >
             Every Member gets a Prepaid card powered by <br />
             <span className="dhaka-bank">Dhaka Bank</span> and
