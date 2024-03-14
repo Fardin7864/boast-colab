@@ -37,7 +37,7 @@ const HeroSection = () => {
         <p className="my-7 text-2xl font-semibold">Encash your influence</p>
         <button
           onClick={handleScrollToWishlist}
-          className="bg-black hover:bg-[#DE3996] text-white font-bold px-6 py-4 rounded-full hover:text-black duration-300 "
+          className="bg-black hover:bg-[#fd7f3e] text-white font-bold px-6 py-4 rounded-full hover:text-black duration-300 "
         >
           Early access
         </button>
