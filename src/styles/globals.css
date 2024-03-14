@@ -60,3 +60,10 @@
   border: 1px solid #aaaaaa;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.699);
 }
+
+/*  */
+
+.brand-section {
+  background-image: url("https://assets.website-files.com/5837424ae11409586f837994/611b2d3c1a84f270060c9ec1_Texture.png"),
+    linear-gradient(#000, #000);
+}
