@@ -40,7 +40,8 @@
 /*  */
 
 .brandPlaceholder::placeholder {
-  color: #ffb28b;
+  color: #fff;
+  font-size: smaller;
 }
 
 ::-webkit-scrollbar {

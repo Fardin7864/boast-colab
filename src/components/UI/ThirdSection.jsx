@@ -11,9 +11,9 @@ const ThirdSection = () => {
     });
   }, []);
   return (
-    <div>
+    <div className=" -mt-5">
       <div
-        data-aos="fade-up"
+        
         style={{ backgroundColor: "#81b8fd" }}
         className=" flex flex-col items-center justify-center py-20"
       >
@@ -41,7 +41,7 @@ const ThirdSection = () => {
           >
             Get free <span className=" logo">Boast</span> Prepaid card powered
             by <br /> <span className="dhaka-bank">Dhaka Bank</span> and{" "}
-            <span className="master-card">Master Card</span>
+            <span className=" text-[#eb031b]">Master</span> <span className=" text-[#f79e1b]">Card</span>
           </span>
         </motion.h2>
       </div>
