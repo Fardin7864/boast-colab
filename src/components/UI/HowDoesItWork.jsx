@@ -15,8 +15,8 @@ const HowDoesItWork = () => {
   return (
     <div>
       <div
-        style={{ backgroundColor: "#b2e92e" }}
-        className="flex justify-center items-center py-20"
+        // style={{ backgroundColor: "#b2e92e" }}
+        className="flex justify-center items-center py-20 how-does-it-work"
       >
         <div className="w-2/4">
           <h2
