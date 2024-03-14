@@ -1,24 +1,33 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const LargestCommunity = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 700,
+    });
+  }, []);
   return (
-    <div className="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-around items-center p-20 bg-[#ff3b46]">
-      <div className="m-5">
+    <div className="flex flex-col lg:flex-row gap-20 justify-between items-center bg-[#ff3b46] p-20">
+      <div className="" data-aos="fade-right" data-aos-easing="ease-in-sine">
         <h2
           className="text-5xl mb-4 font-extrabold text-white"
           style={{ letterSpacing: "-4px" }}
         >
-          join the largest community of gen z
+          Join our Influencer Community,
         </h2>
-        <h1 className=" text-white text-xl mb-4 font-extralight">
-          lifestyle, fashion, art, entrepreneurship, music, gaming and more –
-          there’s always a place for you at our zywa club!
+        <h1 className=" text-white text-xl mb-4 mt-10 font-extralight">
+          lifestyle, fashion, art, entrepreneurship, music, gaming and more-
+          There is a place for you at Boast.
         </h1>
       </div>
 
       {/*  */}
       <img
+        data-aos="fade-left"
+        data-aos-easing="ease-in-sine"
         style={{ width: "663px", height: "375px" }}
         src="https://www.zywa.co/wp-content/uploads/2023/03/70EFFDB2-67EF-4592-819B-8C56EF7F7A98-1024x576.jpg"
         alt=""

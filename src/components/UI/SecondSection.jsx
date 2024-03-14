@@ -10,8 +10,8 @@ const SecondSection = () => {
     });
   }, []);
   return (
-    <div className="flex items-center p-20 bg-[#fd7f3e]">
-      <div className="w-1/2 m-5">
+    <div className="flex flex-col lg:flex-row items-center justify-between bg-[#fd7f3e] px-20 py-10">
+      <div className="w-1/3">
         <h2
           className="text-white text-6xl font-extrabold"
           style={{ letterSpacing: "-2px" }}
@@ -30,14 +30,18 @@ const SecondSection = () => {
           alt=""
         />
       </div>
-      <div className="w-1/2 m-5">
+      <div className="w-1/2">
         <h2
-          className="text-white text-2xl font-bold mt-60"
+          className="text-white text-xl font-bold"
           style={{ letterSpacing: "-1px" }}
         >
           Are you an influencer looking to monetize your social media presence?
-          Boast is here to revolutionize the way you engage with brands and earn
-          rewards for your influence.
+          Even if you are not, it doesn&#x2019;t hurt getting things for free,
+          does it? Boast provides you 10-100% cashback based on your Social
+          media reach whenever you buy something from our Partner Brands and
+          share your purchase on Social media. You also get paid projects thrown
+          your way every now and then. You can apply for Membership if you have
+          a minimum of 1000 followers. Our Membership is free.
         </h2>
       </div>
     </div>

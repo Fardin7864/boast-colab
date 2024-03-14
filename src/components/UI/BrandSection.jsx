@@ -45,7 +45,7 @@ const BrandSection = () => {
             />
 
             <img
-              style={{ height: "40px", }}
+              style={{ height: "40px" }}
               className="mx-10 "
               src="/images/logo2.png"
               alt="image2"
@@ -59,7 +59,7 @@ const BrandSection = () => {
             />
 
             <img
-              style={{ height: "40px"}}
+              style={{ height: "40px" }}
               className="mx-10"
               src="/images/logo4.png"
               alt="image4"

@@ -8,7 +8,9 @@ import {
   ModalFooter,
   useDisclosure,
 } from "@nextui-org/react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const WishlistForm = () => {
   const { isOpen, onOpen, onOpenChange, onClose } = useDisclosure();
@@ -30,19 +32,29 @@ const WishlistForm = () => {
     handleJoinNow();
   };
 
+  //
+
+  useEffect(() => {
+    AOS.init({
+      duration: 700,
+    });
+  }, []);
+
   return (
     <>
       <div
         id="wishlistForm"
-        className="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-around items-center py-20 bg-[#ffc200]"
+        className="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-between items-center p-20 bg-[#ffc200]"
       >
         <img
+          data-aos="fade-right"
+          data-aos-easing="ease-in-sine"
           style={{ width: "663px", height: "549px" }}
           src="https://www.zywa.co/wp-content/uploads/2023/03/Screenshot-2023-03-08-at-12.50.37-AM-1024x848.png"
           alt=""
         />
 
-        <div>
+        <div data-aos="fade-left" data-aos-easing="ease-in-sine">
           <h1 className=" text-white text-xl mb-4">
             want to be an early adaptor?
           </h1>
