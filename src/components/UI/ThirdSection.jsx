@@ -15,7 +15,7 @@ const ThirdSection = () => {
       <div className=" flex flex-col items-center justify-center pb-20 card-section">
         <div data-aos="fade-down">
           <img
-            className="block mx-auto ml-20"
+            className="block mx-auto ml-40"
             style={{ width: "500px" }}
             src="https://res.cloudinary.com/dy80ftu9k/image/upload/v1710427167/BOAST/6_fywoij.png"
             alt=""

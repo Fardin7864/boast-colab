@@ -37,7 +37,7 @@ const HeroSection = () => {
         </h2>
 
         <p
-          className="my-7 text-2xl font-semibold text-gray-700"
+          className=" mb-7 text-2xl font-semibold text-gray-700"
           style={{ fontFamily: "Montserrat" }}
         >
           Encash your influence

@@ -122,8 +122,9 @@
 }
 
 .hero-section {
-  background-image: url("https://assets.website-files.com/5837424ae11409586f837994/611b2d3c1a84f270060c9ec1_Texture.png"),
-    linear-gradient(#f0f0f0, #eeeeee);
+  /* background-image: url("https://assets.website-files.com/5837424ae11409586f837994/611b2d3c1a84f270060c9ec1_Texture.png"),
+    linear-gradient(#f0f0f0, #eeeeee); */
+  background-image: url("https://res.cloudinary.com/dy80ftu9k/image/upload/v1710430246/BOAST/WhatsApp_Image_2024-03-14_at_16.36.30_40be30a5_ifdjaa.png");
 }
 
 .how-does-it-work {

@@ -68,7 +68,10 @@ const HowDoesItWork = () => {
               data-aos="fade-left"
               data-aos-easing="linear"
             >
-              <h2 className="text-black text-2xl flex gap-2 my-3">
+              <h2
+                className="text-black text-2xl flex gap-2 my-3 font-bold"
+                style={{ fontFamily: "Montserrat" }}
+              >
                 <span className="text-sm mt-2">
                   <FaStar className=" text-2xl text-orange-500" />
                 </span>
@@ -78,7 +81,10 @@ const HowDoesItWork = () => {
               {/* 2nd message */}
               <div className=" flex gap-2">
                 <FaStar className=" text-2xl text-orange-500 mt-3" />
-                <h2 className="text-black text-2xl my-3">
+                <h2
+                  className="text-black text-2xl my-3 font-bold"
+                  style={{ fontFamily: "Montserrat" }}
+                >
                   Shop from any of our
                   <span className=" font-extrabold text-white ">
                     {" "}
@@ -93,8 +99,14 @@ const HowDoesItWork = () => {
 
               <div className=" flex gap-2">
                 <FaStar className=" text-2xl text-orange-500 mt-3" />
-                <h2 className="text-black text-2xl flex gap-2 my-3">
-                  <span>
+                <h2
+                  className="text-black text-2xl flex gap-2 my-3 font-bold"
+                  style={{ fontFamily: "Montserrat" }}
+                >
+                  <span
+                    className="font-bold"
+                    style={{ fontFamily: "Montserrat" }}
+                  >
                     Get{" "}
                     <span className=" font-extrabold text-white ">
                       Cashback
