@@ -10,7 +10,7 @@ const SecondSection = () => {
     });
   }, []);
   return (
-    <div className="flex items-center justify-between bg-[#fd7f3e] px-20">
+    <div className="flex flex-col lg:flex-row items-center justify-between bg-[#fd7f3e] px-20 py-10">
       <div className="w-1/3">
         <h2
           className="text-white text-6xl font-extrabold"
