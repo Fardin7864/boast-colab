@@ -3,8 +3,8 @@ import React from "react";
 
 const LargestCommunity = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-around items-center p-20 bg-[#ff3b46]">
-      <div className="m-5">
+    <div className="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-around items-center  bg-[#ff3b46] p-20">
+      <div className="">
         <h2
           className="text-5xl mb-4 font-extrabold text-white"
           style={{ letterSpacing: "-4px" }}

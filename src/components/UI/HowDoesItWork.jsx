@@ -14,9 +14,9 @@ const HowDoesItWork = () => {
     <div>
       <div
         style={{ backgroundColor: "#a1df70" }}
-        className="flex flex-col justify-center lg:flex-row items-center p-20"
+        className="flex flex-col justify-center lg:flex-row items-center px-20"
       >
-        <div className="w-1/2 m-5">
+        <div className="w-1/2">
           <h2
             data-aos="fade-right"
             data-aos-easing="ease-in-sine"
@@ -35,11 +35,7 @@ const HowDoesItWork = () => {
             alt=""
           />
         </div>
-        <div
-          className="w-1/2 m-5"
-          data-aos="fade-left"
-          data-aos-easing="linear"
-        >
+        <div className="w-1/2" data-aos="fade-left" data-aos-easing="linear">
           <h2
             className="text-black text-2xl flex gap-2 my-3"
             style={{ letterSpacing: "-2px" }}

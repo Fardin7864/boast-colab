@@ -8,7 +8,7 @@ const Navbar = () => {
   };
   return (
     <div className=" pt-3 drop-shadow-lg bg-slate-100">
-      <div className="flex justify-between items-center mx-14">
+      <div className="flex justify-between items-center mx-20">
         {/* <h1
           className="text-black text-4xl font-extrabold"
           style={{ letterSpacing: "-6px" }}
@@ -21,11 +21,11 @@ const Navbar = () => {
           alt=""
         /> */}
         <Image
-        src={'/logo.png'}
-        width={120}
-        height={0}
-        alt="logo"
-        className=""
+          src={"/logo.png"}
+          width={120}
+          height={0}
+          alt="logo"
+          className=""
         />
         <button
           onClick={handleScrollToWishlist}

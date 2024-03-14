@@ -10,8 +10,8 @@ const SecondSection = () => {
     });
   }, []);
   return (
-    <div className="flex items-center p-20 bg-[#fd7f3e]">
-      <div className="w-1/2 m-5">
+    <div className="flex items-center bg-[#fd7f3e] px-20">
+      <div className="w-1/2">
         <h2
           className="text-white text-6xl font-extrabold"
           style={{ letterSpacing: "-2px" }}
@@ -30,7 +30,7 @@ const SecondSection = () => {
           alt=""
         />
       </div>
-      <div className="w-1/2 m-5">
+      <div className="w-1/2">
         <h2
           className="text-white text-2xl font-bold mt-60"
           style={{ letterSpacing: "-1px" }}

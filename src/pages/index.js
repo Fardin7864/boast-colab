@@ -20,7 +20,7 @@ export default function HomePage() {
         outerAlpha={0.2}
         innerScale={2}
         outerScale={0}
-        innerStyle={{border: '2px solid black', backgroundColor: '#fd7f3e'}}
+        innerStyle={{ border: "2px solid black", backgroundColor: "#fd7f3e" }}
         clickables={[
           "a",
           'input[type="text"]',
@@ -46,15 +46,16 @@ export default function HomePage() {
         <p>hello</p>
       </CustomScrollbar> */}
 
-      <HeroSection />
-
-      <SecondSection />
-      <BrandSection />
-      <ThirdSection />
-      <HowDoesItWork />
-      <LargestCommunity />
-      <EligibilitySection />
-      <WishlistForm />
+      <div>
+        <HeroSection />
+        <SecondSection />
+        <BrandSection />
+        <ThirdSection />
+        <HowDoesItWork />
+        <LargestCommunity />
+        <EligibilitySection />
+        <WishlistForm />
+      </div>
 
       {/*  */}
 
